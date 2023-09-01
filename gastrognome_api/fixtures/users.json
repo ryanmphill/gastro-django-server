@@ -1,0 +1,128 @@
+[
+    {
+        "model": "auth.user",
+        "pk": 1,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$NxvLnse7sGCxlH0O8STfJh$Kj5K/EPThlwP3CIpR0cPjHmjVPPyZxgR3+YvTLbx8Ro=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "gdalf0@middleearthstate.edu",
+            "first_name": "Gandalf",
+            "last_name": "",
+            "email": "gdalf0@middleearthstate.edu",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-10-21T21:15:55.764Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$RYpqI5lHYAAKOoLTjcys1N$CRAjRgoiO8e+kmkD52KF9hvyDBRm/mn77IsXHq1PR+Y=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "lego@woodlandrealm.gov",
+            "first_name": "Legolas",
+            "last_name": "",
+            "email": "lego@woodlandrealm.gov",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-10-21T21:16:33.812Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$rKAoEq5gJPOTYAHG0RVAwg$lh/oOMuMIwyTFWY74Q2MmEG26avmGd3XZ/Glkcmb9Dk=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "gimli@thorinscompany.com",
+            "first_name": "Gimli",
+            "last_name": "",
+            "email": "gimli@thorinscompany.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2022-10-21T21:17:24.322Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$Fp4nwyMAznueO4F555j2tw$ZJ9cT77RsQnLZfdWQZsGZYgt3kWifuK7iiCoItdSfbc=",
+            "last_login": null,
+            "is_superuser": true,
+            "username": "fbaggins@shire.net",
+            "first_name": "Frodo",
+            "last_name": "Baggins",
+            "email": "fbaggins@shire.net",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-10-21T21:18:12.946Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$HGaSSb7w2N44vRYtNJJFwp$sFiVSeJurZgm0OkJOqP5CqUy8qQOfF1c3S8FERfd/iU=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "swisegamgee@shire.net",
+            "first_name": "Samwise",
+            "last_name": "Gamgee",
+            "email": "swisegamgee@shire.net",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-10-21T21:18:55.741Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 6,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$UYTZKXdRCqtPTs8cGUQVtn$V8trZDthFTR7J97m7M4tyu7CV1TO3jfO/sFqSoJX2Aw=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "link@hyrulechampions.net",
+            "first_name": "Link",
+            "last_name": "",
+            "email": "link@hyrulechampions.net",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-10-21T21:19:24.892Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 7,
+        "fields": {
+            "password": "pbkdf2_sha256$600000$Y417QWoTACsGT0xtMA2nL4$MAwRBQnMhYMPwo27irdI1hGJ7WtT0kRYDa6iyPJWqbg=",
+            "last_login": null,
+            "is_superuser": false,
+            "username": "zelda@hyrulekingdom.gov",
+            "first_name": "Zelda",
+            "last_name": "",
+            "email": "zelda@hyrulekingdom.gov",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2022-10-21T21:19:24.892Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    }
+]
