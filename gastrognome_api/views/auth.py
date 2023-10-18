@@ -6,6 +6,7 @@ from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework import status
 from django.db import IntegrityError
+from gastrognome_api.models import GastroUser
 
 
 @api_view(['POST'])
@@ -53,6 +54,12 @@ def register_user(request):
             first_name=request.data['first_name'],
             last_name=request.data['last_name'],
             email=request.data['email']
+        )
+
+        # Now save the extra info in the gastrognome_api_gastrouser table
+        gastro_user = GastroUser.objects.create(
+            bio="",
+            user=new_user
         )
 
         # Use the REST Framework's token generator on the new user account

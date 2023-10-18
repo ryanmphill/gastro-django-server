@@ -1,0 +1,1106 @@
+[
+    {
+      "model": "gastrognome_api.category",
+      "pk": 1,
+      "fields": {
+        "name": "Vegetarian",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 2,
+      "fields": {
+        "name": "Vegan",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 3,
+      "fields": {
+        "name": "Gluten-free",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 4,
+      "fields": {
+        "name": "Dairy-free",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 5,
+      "fields": {
+        "name": "Nut-free",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 6,
+      "fields": {
+        "name": "Kosher",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 7,
+      "fields": {
+        "name": "Halal",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 8,
+      "fields": {
+        "name": "Pescatarian",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 9,
+      "fields": {
+        "name": "Lacto-vegetarian",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 10,
+      "fields": {
+        "name": "Ovo-vegetarian",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 11,
+      "fields": {
+        "name": "Paleo",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 12,
+      "fields": {
+        "name": "Low-carb",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 13,
+      "fields": {
+        "name": "Low-fat",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 14,
+      "fields": {
+        "name": "Sugar-free",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 15,
+      "fields": {
+        "name": "Raw",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 16,
+      "fields": {
+        "name": "FODMAP-free",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 17,
+      "fields": {
+        "name": "Organic",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 18,
+      "fields": {
+        "name": "Locally-sourced",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 19,
+      "fields": {
+        "name": "Grain-free",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 20,
+      "fields": {
+        "name": "Soy-free",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 21,
+      "fields": {
+        "name": "Italian",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 22,
+      "fields": {
+        "name": "Chinese",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 23,
+      "fields": {
+        "name": "Mexican",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 24,
+      "fields": {
+        "name": "Indian",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 25,
+      "fields": {
+        "name": "Japanese",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 26,
+      "fields": {
+        "name": "Thai",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 27,
+      "fields": {
+        "name": "Greek",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 28,
+      "fields": {
+        "name": "French",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 29,
+      "fields": {
+        "name": "Spanish",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 30,
+      "fields": {
+        "name": "Mediterranean",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 31,
+      "fields": {
+        "name": "American",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 32,
+      "fields": {
+        "name": "Korean",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 33,
+      "fields": {
+        "name": "Vietnamese",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 34,
+      "fields": {
+        "name": "Lebanese",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 35,
+      "fields": {
+        "name": "Brazilian",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 36,
+      "fields": {
+        "name": "Turkish",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 37,
+      "fields": {
+        "name": "Russian",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 38,
+      "fields": {
+        "name": "Moroccan",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 39,
+      "fields": {
+        "name": "Peruvian",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 40,
+      "fields": {
+        "name": "Caribbean",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 41,
+      "fields": {
+        "name": "Ethiopian",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 42,
+      "fields": {
+        "name": "Thai",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 43,
+      "fields": {
+        "name": "Indonesian",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 44,
+      "fields": {
+        "name": "Middle Eastern",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 45,
+      "fields": {
+        "name": "South African",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 46,
+      "fields": {
+        "name": "Grilling",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 47,
+      "fields": {
+        "name": "Baking",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 48,
+      "fields": {
+        "name": "Roasting",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 49,
+      "fields": {
+        "name": "Frying",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 50,
+      "fields": {
+        "name": "Sautéing",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 51,
+      "fields": {
+        "name": "Steaming",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 52,
+      "fields": {
+        "name": "Boiling",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 53,
+      "fields": {
+        "name": "Poaching",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 54,
+      "fields": {
+        "name": "Simmering",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 55,
+      "fields": {
+        "name": "Broiling",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 56,
+      "fields": {
+        "name": "Smoking",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 57,
+      "fields": {
+        "name": "Stir-frying",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 58,
+      "fields": {
+        "name": "Braising",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 59,
+      "fields": {
+        "name": "Griddling",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 60,
+      "fields": {
+        "name": "Blanching",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 61,
+      "fields": {
+        "name": "Deep-frying",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 62,
+      "fields": {
+        "name": "Sous vide",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 63,
+      "fields": {
+        "name": "Caramelizing",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 64,
+      "fields": {
+        "name": "Grating",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 65,
+      "fields": {
+        "name": "Blending",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 66,
+      "fields": {
+        "name": "Stewing",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 69,
+      "fields": {
+        "name": "Flambéing",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 71,
+      "fields": {
+        "name": "Pressure cooking",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 74,
+      "fields": {
+        "name": "Infusing",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 75,
+      "fields": {
+        "name": "Marinating",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 76,
+      "fields": {
+        "name": "Searing",
+        "category_type": "cooking method"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 77,
+      "fields": {
+        "name": "Pasta",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 78,
+      "fields": {
+        "name": "Seafood",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 79,
+      "fields": {
+        "name": "Salad",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 80,
+      "fields": {
+        "name": "Soup",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 81,
+      "fields": {
+        "name": "Sandwich",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 82,
+      "fields": {
+        "name": "Pizza",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 83,
+      "fields": {
+        "name": "Burger",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 84,
+      "fields": {
+        "name": "Stir-fry",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 85,
+      "fields": {
+        "name": "Curry",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 86,
+      "fields": {
+        "name": "Roast",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 87,
+      "fields": {
+        "name": "Grilled",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 88,
+      "fields": {
+        "name": "Taco",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 89,
+      "fields": {
+        "name": "Sushi",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 90,
+      "fields": {
+        "name": "Wrap",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 91,
+      "fields": {
+        "name": "Noodle",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 92,
+      "fields": {
+        "name": "Rice",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 99,
+      "fields": {
+        "name": "Gratin",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 100,
+      "fields": {
+        "name": "Stew",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 101,
+      "fields": {
+        "name": "Frittata",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 102,
+      "fields": {
+        "name": "Sauce",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 104,
+      "fields": {
+        "name": "Goulash",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 105,
+      "fields": {
+        "name": "Sashimi",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 107,
+      "fields": {
+        "name": "Fajitas",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 108,
+      "fields": {
+        "name": "Quiche",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 109,
+      "fields": {
+        "name": "Pancakes",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 110,
+      "fields": {
+        "name": "Sweet",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 111,
+      "fields": {
+        "name": "Savory",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 112,
+      "fields": {
+        "name": "Spicy",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 113,
+      "fields": {
+        "name": "Sour",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 114,
+      "fields": {
+        "name": "Bitter",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 115,
+      "fields": {
+        "name": "Umami",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 116,
+      "fields": {
+        "name": "Tangy",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 117,
+      "fields": {
+        "name": "Creamy",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 118,
+      "fields": {
+        "name": "Smoky",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 119,
+      "fields": {
+        "name": "Herbaceous",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 120,
+      "fields": {
+        "name": "European",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 121,
+      "fields": {
+        "name": "Light",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 122,
+      "fields": {
+        "name": "Comfort",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 123,
+      "fields": {
+        "name": "Hearty",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 124,
+      "fields": {
+        "name": "Rich",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 125,
+      "fields": {
+        "name": "Delicate",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 127,
+      "fields": {
+        "name": "Fresh",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 128,
+      "fields": {
+        "name": "Crispy",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 129,
+      "fields": {
+        "name": "Satisfying",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 130,
+      "fields": {
+        "name": "Elegant",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 131,
+      "fields": {
+        "name": "Salty",
+        "category_type": "flavor"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 132,
+      "fields": {
+        "name": "Quick and easy",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 133,
+      "fields": {
+        "name": "Keto",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 134,
+      "fields": {
+        "name": "Whole30",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 135,
+      "fields": {
+        "name": "Decadent",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 136,
+      "fields": {
+        "name": "Flavorful",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 137,
+      "fields": {
+        "name": "Party Food",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 138,
+      "fields": {
+        "name": "Budgent-friendly",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 139,
+      "fields": {
+        "name": "Allergy-friendly",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 140,
+      "fields": {
+        "name": "Carnivore",
+        "category_type": "diet"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 141,
+      "fields": {
+        "name": "Southern",
+        "category_type": "cuisine"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 142,
+      "fields": {
+        "name": "Soul food",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 143,
+      "fields": {
+        "name": "Refreshing",
+        "category_type": "quality"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 144,
+      "fields": {
+        "name": "Holiday",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 145,
+      "fields": {
+        "name": "Thanksgiving",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 146,
+      "fields": {
+        "name": "Christmas",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 147,
+      "fields": {
+        "name": "Hanukkah",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 148,
+      "fields": {
+        "name": "Summer",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 149,
+      "fields": {
+        "name": "Spring",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 150,
+      "fields": {
+        "name": "Autumn",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 151,
+      "fields": {
+        "name": "Winter",
+        "category_type": "general"
+      }
+    },
+    {
+      "model": "gastrognome_api.category",
+      "pk": 152,
+      "fields": {
+        "name": "Hibachi",
+        "category_type": "cooking method"
+      }
+    }
+  ]
