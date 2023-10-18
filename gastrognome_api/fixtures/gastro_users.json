@@ -1,0 +1,79 @@
+[
+    {
+        "model": "gastrognome_api.gastrouser",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "bio": "",
+            "image_url": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+            "favorites": [],
+            "following": []
+        }
+    },
+    {
+        "model": "gastrognome_api.gastrouser",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "bio": "",
+            "image_url": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+            "favorites": [],
+            "following": []
+        }
+    },
+    {
+        "model": "gastrognome_api.gastrouser",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "bio": "",
+            "image_url": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+            "favorites": [],
+            "following": []
+        }
+    },
+    {
+        "model": "gastrognome_api.gastrouser",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "bio": "",
+            "image_url": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+            "favorites": [],
+            "following": []
+        }
+    },
+    {
+        "model": "gastrognome_api.gastrouser",
+        "pk": 5,
+        "fields": {
+            "user": 5,
+            "bio": "",
+            "image_url": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+            "favorites": [],
+            "following": []
+        }
+    },
+    {
+        "model": "gastrognome_api.gastrouser",
+        "pk": 6,
+        "fields": {
+            "user": 6,
+            "bio": "",
+            "image_url": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+            "favorites": [],
+            "following": []
+        }
+    },
+    {
+        "model": "gastrognome_api.gastrouser",
+        "pk": 7,
+        "fields": {
+            "user": 7,
+            "bio": "",
+            "image_url": "https://st3.depositphotos.com/6672868/13701/v/600/depositphotos_137014128-stock-illustration-user-profile-icon.jpg",
+            "favorites": [],
+            "following": []
+        }
+    }
+]

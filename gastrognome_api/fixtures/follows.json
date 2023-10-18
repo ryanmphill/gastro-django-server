@@ -1,0 +1,106 @@
+[
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 4,
+      "fields": {
+        "user": 5,
+        "who_is_followed": 4
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 22,
+      "fields": {
+        "user": 4,
+        "who_is_followed": 2
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 25,
+      "fields": {
+        "user": 7,
+        "who_is_followed": 4
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 26,
+      "fields": {
+        "user": 7,
+        "who_is_followed": 2
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 27,
+      "fields": {
+        "user": 7,
+        "who_is_followed": 5
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 28,
+      "fields": {
+        "user": 7,
+        "who_is_followed": 1
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 29,
+      "fields": {
+        "user": 6,
+        "who_is_followed": 3
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 30,
+      "fields": {
+        "user": 6,
+        "who_is_followed": 5
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 31,
+      "fields": {
+        "user": 6,
+        "who_is_followed": 4
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 32,
+      "fields": {
+        "user": 6,
+        "who_is_followed": 2
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 34,
+      "fields": {
+        "user": 4,
+        "who_is_followed": 7
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 40,
+      "fields": {
+        "user": 4,
+        "who_is_followed": 5
+      }
+    },
+    {
+      "model": "gastrognome_api.follow",
+      "pk": 41,
+      "fields": {
+        "user": 4,
+        "who_is_followed": 3
+      }
+    }
+  ]

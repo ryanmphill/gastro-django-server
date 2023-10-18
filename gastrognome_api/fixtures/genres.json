@@ -1,0 +1,58 @@
+[
+    {
+      "model": "gastrognome_api.genre",
+      "pk": 1,
+      "fields": {
+        "name": "Breakfast"
+      }
+    },
+    {
+      "model": "gastrognome_api.genre",
+      "pk": 2,
+      "fields": {
+        "name": "Appetizers and Snacks"
+      }
+    },
+    {
+      "model": "gastrognome_api.genre",
+      "pk": 3,
+      "fields": {
+        "name": "Main Course"
+      }
+    },
+    {
+      "model": "gastrognome_api.genre",
+      "pk": 4,
+      "fields": {
+        "name": "Side Dishes"
+      }
+    },
+    {
+      "model": "gastrognome_api.genre",
+      "pk": 5,
+      "fields": {
+        "name": "Soups and Stews"
+      }
+    },
+    {
+      "model": "gastrognome_api.genre",
+      "pk": 6,
+      "fields": {
+        "name": "Desserts"
+      }
+    },
+    {
+      "model": "gastrognome_api.genre",
+      "pk": 7,
+      "fields": {
+        "name": "Breads and Baked Goods"
+      }
+    },
+    {
+      "model": "gastrognome_api.genre",
+      "pk": 8,
+      "fields": {
+        "name": "Beverages"
+      }
+    }
+  ]

@@ -1,0 +1,222 @@
+[
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 1,
+      "fields": {
+        "title": "Hearty Potato Leek Soup",
+        "genre": 5,
+        "description": "Here is a hearty potato soup you can have ready in less than an hour",
+        "prep_instructions": "Chop up the celery, onion, and garlic. Wash leeks thoroughly and then slice into thin medallions. Peel potatoes and set to the side.",
+        "cook_instructions": "In a large pot, saute celery, onion, and leeks until slightly caramelized and tender. Add garlic to pot after a couple of minutes. Next, add potatoes and cook for an additional 5 minutes, stirring frequently. Add broth and then bring to a boil. Let simmer for 16 minutes. Add sour cream and cheese, mix together, and serve.",
+        "prep_time": 15,
+        "cook_time": 25,
+        "serving_size": 4,
+        "user": 3,
+        "note": "To make soup vegan friendly, substitute non-dairy yogurt for sour cream",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1642463002619-f6e168821c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=416&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 2,
+      "fields": {
+        "title": "Simple Baked Sweet Potato",
+        "genre": 4,
+        "description": "Here is an easy side dish to take your meal to the next level, or to just enjoy as a decadent snack",
+        "prep_instructions": "Preheat oven to 425°F. Wash potato and pierce sides with fork. Place on baking sheet.",
+        "cook_instructions": "Roast 40 to 50 minutes, or until fork tender. Don't wrap in foil.",
+        "prep_time": 15,
+        "cook_time": 25,
+        "serving_size": 4,
+        "user": 3,
+        "note": "Add butter to make potato more creamy and whatever seasonings desired. For a more moist sweet potato, use garnet or jewel varieties. For a more starchy potato, go for a light fleshed variety such as a Hannah, or a purple fleshed variety.",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1570723735746-c9bd51bd7c40?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 3,
+      "fields": {
+        "title": "Lemon Scones",
+        "genre": 7,
+        "description": "These lemon scones have a crusty exterior and they're tender and flaky on the inside. They are rich and buttery but balanced by the bright and floral lemon. The dough is loaded with lemon zest and after baking, the golden crusts are drizzled with a zingy lemon glaze.",
+        "prep_instructions": "Preheat the oven to 425°F. \nLine a baking sheet with parchment paper and set aside until ready to use.\n\nMix the dry ingredients:\nIn a large bowl, use your fingertips to rub the lemon zest into the sugar, infusing the sugar with the oils from the lemon zest. \n\nAdd the flour, baking powder, salt, and baking soda and whisk to combine.\n\nCut in the butter:\nAdd the cold, cubed butter to the flour mixture, tossing with your hands to distribute and coat the butter in flour. Using a pastry cutter, work the butter into the flour mixture until the mixture forms coarse crumbs and the butter is in pieces no larger than a pea.\n\nIf you don’t have a pastry blender, use the tips of your fingers to squish the butter into the flour, pressing and breaking the butter into pea-sized pieces, but flat, not in chunks.\n\nAdd the wet ingredients:\nMeasure the buttermilk in a liquid measuring cup, then whisk in the egg. Pour the buttermilk mixture into the flour mixture. Gently fold the mixture together with a rubber spatula or plastic dough scraper until it forms a cohesive, but crumbly mass. Don't overmix. It's okay if the dough is slightly lumpy or a few dry bits remain.\n\nShape and divide:\nTransfer the dough to a lightly floured surface. Use your hands to gently knead the dough a few times, then press the dough into an 8-inch diameter disk about 1 1/2 inches thick. Use a long knife or a bench scraper to cut the disk into 8 equal-sized wedges.\n\nPlace the wedges on the prepared baking sheet, spacing them at least 1-inch apart. Use a pastry brush to brush the tops of the scones lightly with buttermilk.\n\nChill:\nPlace the baking tray in the freezer and chill for 15 minutes.\n\n",
+        "cook_instructions": "Bake:\nBake the scones in the center of the oven until golden on top and browned underneath, about 20 minutes. Allow the scones to cool completely on the pan before adding the lemon glaze.\n\nMake the lemon glaze:\nWhile the scones cool, make the lemon glaze. In a small bowl, whisk together the powdered sugar and lemon juice until the glaze is smooth.\n\nGlaze the scones:\nUse a spoon to drizzle the scones with the lemon glaze. Allow the glaze to set for 10 minutes, then serve.",
+        "prep_time": 30,
+        "cook_time": 20,
+        "serving_size": 8,
+        "user": 1,
+        "note": "You want to use very cold butter diced into 1/2-inch cubes. If you have time you should cut the butter and freeze it for at least 30 minutes before mixing the dough.\n\nAvoid overmixing the dough. The dough should be pretty crumbly and it’s absolutely fine if there are a few floury or dry spots. If you overmix the dough, the scones can get tough and will lose some of their flakiness.\n\nFor the flakiest scones that won’t lose their shape as much during baking, chill the shaped scones in the freezer before baking for at least 15 minutes while the oven preheats.\n\nStorage:\nThe scones will keep in an airtight container on the counter for up to two days. For longer storage, the scones can be frozen for up to two months in a freezer bag. Let the scones defrost at room temperature for about 1 hour before eating.",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1620416396438-cf1886c79e2a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 4,
+      "fields": {
+        "title": "First Breakfast Frittata",
+        "genre": 1,
+        "description": "The perfect first breakfast. Some call a frittata a crustless quiche. It’s an egg-bake filled with yummy vegetables, herbs, and a bit of cheese. If you’re not a savory breakfast person, it’s even a deliciously quick second breakfast, elevenses, or dinner option.",
+        "prep_instructions": "Preheat the oven to 400°F.\nWhisk the eggs, almond milk, garlic, and salt until well combined. Set aside.",
+        "cook_instructions": "Heat ½ tablespoon olive oil in a 10 or 12-inch cast-iron skillet over medium heat. Add the shallot, and a pinch of salt and pepper and cook until translucent, about 5 minutes. Add the roasted red peppers and spinach. Sauté until the spinach is wilted, then add the egg mixture and gently shake the pan to distribute. Sprinkle with the feta and bake 15 to 20 minutes or until the eggs are set. Season to taste and serve.",
+        "prep_time": 5,
+        "cook_time": 25,
+        "serving_size": 3,
+        "user": 5,
+        "note": "Once you pour the egg mixture in, you won’t be moving the vegetables around much (or you’d end up with scrambled eggs!), so make sure the veggies are spaced evenly in the pan to get a final frittata with veggies in every bite.",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1587900437942-8758241767ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=388&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 5,
+      "fields": {
+        "title": "Second Breakfast Soufflé",
+        "genre": 1,
+        "description": "Crispy on the outside and soft and fluffy on the inside, a soufflé can be filled with many of your favorite ingredients. Making a soufflé is actually a simple process, despite its reputation for being difficult to make. Try adding cheese, crab, vegetables and more for the perfect second breakfast.",
+        "prep_instructions": "Preheat oven to 375° F (190° C).",
+        "cook_instructions": "Melt butter in medium saucepan over low heat. Stir in flour, salt and pepper. Cook, stirring constantly, until mixture is smooth and bubbly. Stir in milk all at once. Continue stirring until mixture boils and is smooth and thickened.\n\nSeparate eggs. Beat yolks well and add ¼ cup (50 mL) of warm sauce mixture to egg yolks.\n\nCombine yolk mixture with remaining sauce, blending thoroughly. If desired, add finely chopped filling ingredients, stirring into white sauce until blended (see variations). Set sauce aside to cool slightly.\n\nBeat egg whites and cream of tartar in large bowl, until stiff but not dry. Fold some of the egg whites into sauce to make it lighter, then gently but thoroughly fold the sauce into the remaining egg whites.\n\nCarefully pour into 4-cup (1 L) soufflé or casserole dish.\n\nBake in preheated 375° F (190° C) oven until puffed and lightly browned, 20 to 25 minutes or until done. Serve immediately.",
+        "prep_time": 10,
+        "cook_time": 20,
+        "serving_size": 4,
+        "user": 5,
+        "note": "Never add egg yolks to a hot sauce all at once as they may begin to coagulate too rapidly and form lumps.\n\nIt's easier to separate the white from the yolk when an egg is cold.\n\nA small funnel can be used for separating egg whites from yolks. Place the funnel over a measuring cup. Crack the egg over the funnel. The white will run through and the yolk will remain in the funnel.\n\nTo make a collar for a soufflé if needed, cut a strip of aluminum foil, double thickness, 4 inches (10 cm) wide and long enough to go around the dish, allowing for at least a 3-inch (8 cm) overlap. Wrap it around the outside of the dish and fasten with string. The collar should extend 2 to 3 inches (5 to 8 cm) above the rim of the dish.",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1597231242478-93fac92a8d04?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 6,
+      "fields": {
+        "title": "Elevensies Enchiladas",
+        "genre": 3,
+        "description": "These enchiladas are a casual, hearty entrée that will be met with delight as you pass it around the table.",
+        "prep_instructions": "Preheat oven to 400 degrees Fahrenheit with one rack in the middle of the oven and one in the upper third. Lightly grease a 9 by 13-inch pan with olive oil or cooking spray.",
+        "cook_instructions": "In a large skillet over medium heat, warm the olive oil until simmering. Add the onions and a pinch of salt. Cook, stirring often, until the onions are tender and translucent, about 5 to 7 minutes. Add the broccoli and bell pepper, stir, and reduce heat to medium-low. Cover the skillet (I don’t have a lid for mine, so I just placed a cookie sheet on top). Cook, stirring occasionally, for about 8 to 9 minutes, or until the broccoli is brighter green and just starting to turn golden on the edges.\n\nAdd the cumin and cinnamon to the skillet and cook until fragrant, about 30 seconds. Add the spinach, a few handfuls at a time, stirring until it has reduced in size. Repeat with remaining spinach and cook until all of the spinach has wilted.\n\nTransfer the contents of the pan to a medium mixing bowl. Add the drained beans, ¼ cup cheese and a drizzle of enchilada sauce (about 2 tablespoons). Season with ½ teaspoon salt and some freshly ground black pepper, to taste.\n\nAssemble the enchiladas: Pour ¼ cup enchilada sauce into your prepared pan and tilt it from side to side until the bottom of the pan is evenly coated. To assemble your first enchilada, spread ½ cup filling mixture down the middle of a tortilla, then snugly wrap the left side over and then the right, to make a wrap. Place it seam side down against the edge of your pan. Repeat with remaining tortillas and filling.\n\nDrizzle the remaining enchilada sauce evenly over the enchiladas, leaving the tips of the enchiladas bare. Sprinkle the remaining shredded cheese evenly over the enchiladas.\n\nBake, uncovered, on the middle rack for 20 minutes. If the cheese on top isn’t golden enough for your liking, carefully transfer the enchiladas to the upper rack of the oven and bake for an additional 3 to 6 minutes, until sufficiently golden and bubbly.\n\nRemove from oven and let the enchiladas rest for 10 minutes (they’re super hot!). Before serving, sprinkle chopped cilantro down the center of the enchiladas. Serve immediately.",
+        "prep_time": 15,
+        "cook_time": 45,
+        "serving_size": 4,
+        "user": 4,
+        "note": "MAKE IT VEGAN: I believe you could just skip the cheese altogether and still end up with awesome enchiladas. You might top them with sliced avocado for some extra creaminess.",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1534352956036-cd81e27dd615?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=401&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 7,
+      "fields": {
+        "title": "Butternut Squash Stew",
+        "genre": 5,
+        "description": "Reasons love this butternut squash stew:\nThe instant pot makes it quick and easy.\nThe combination of flavors are so delicious.\nIt’s thick, hearty and very comforting.\nIt’s chockful of healthy ingredients.\nThe combination of ingredients make this a truly satisfying meal.",
+        "prep_instructions": "Heat a stockpot large pot or Dutch oven on medium heat and add 2 tablespoons olive oil (not included in above recipe)",
+        "cook_instructions": "Add onion and sauté for 6 minutes.\n\nAdd garlic, basil, oregano and salt and sauté for additional 2 minutes.\n\nAdd broth, sherry, water, squash and quinoa and bring to a boil.\n\nLower temperature to a simmer and cook for 15 minutes or until squash is done.\n\nAdd arugula and stir until wilted.\n\nServe",
+        "prep_time": 10,
+        "cook_time": 20,
+        "serving_size": 8,
+        "user": 2,
+        "note": "Cut the squash into 1/2 inch to 1 inch cubes but don’t stress is they aren’t all uniform.\n\nYou can make this recipe vegetarian by switching out the chicken broth with vegetable broth.  I use chicken broth because I love the taste and vibrancy it adds to soups and stews.",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 8,
+      "fields": {
+        "title": "Hearty Pizza",
+        "genre": 3,
+        "description": "Absolutely mouth watering Italian cuisine with melted mozzarella cheese on top of a marinara base. Basil leaves and olives to garnish. :) ",
+        "prep_instructions": "do a happy dance ",
+        "cook_instructions": "put in hot oven until done",
+        "prep_time": 12,
+        "cook_time": 18,
+        "serving_size": 3,
+        "user": 4,
+        "note": "have a great time and don't forget the LOVE! <3",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1593560708920-61dd98c46a4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 9,
+      "fields": {
+        "title": "Luncheon Lasagna",
+        "genre": 3,
+        "description": "Tender sheets of pasta, a creamy ricotta cheese filling, and a rich meaty tomato sauce are all topped with more cheese and baked until browned and bubbly.",
+        "prep_instructions": "Preheat the oven to 350°F. In a large pot of salted water, boil lasagna noodles until al dente according to package directions. Drain, rinse under cold water, and set aside.",
+        "cook_instructions": "In a large skillet or Dutch oven, brown beef, sausage, onion, and garlic over medium-high heat until no pink remains. Drain any fat.\nStir in the pasta sauce, tomato paste, Italian seasoning, ½ teaspoon of salt, and ¼ teaspoon of black pepper. Simmer uncovered over medium heat for 5 minutes or until thickened.\nIn a separate bowl, combine 1 ½ cups mozzarella, ¼ cup parmesan cheese, ricotta, parsley, egg, and ¼ teaspoon salt.\nSpread 1 cup of the meat sauce in a 9×13 pan or casserole dish. Top it with 3 lasagna noodles. Layer with ⅓ of the ricotta cheese mixture and 1 cup of meat sauce. Repeat twice more. Finish with 3 noodles topped with remaining sauce.\nCover with foil and bake for 45 minutes. \nRemove the foil and sprinkle with the remaining 2 ½ cups mozzarella cheese and ¼ cup parmesan cheese. Bake for an additional 15 minutes or until browned and bubbly. Broil for 2-3 minutes if desired.\nRest for at least 15 minutes before cutting.",
+        "prep_time": 30,
+        "cook_time": 60,
+        "serving_size": 12,
+        "user": 4,
+        "note": "Use fresh lasagna sheets found in the deli area and skip the boiling step! Fresh lasagna doesn’t need to be boiled first.",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFzYWduYXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 10,
+      "fields": {
+        "title": "Veggie Pizza",
+        "genre": 3,
+        "description": "This vegetarian pizza recipe will delight vegetarians and carnivores alike. It’s fresh and full of flavor, featuring cherry tomatoes, artichoke, bell pepper, olives, red onion and some hidden (and optional) baby spinach. You’ll find a base of rich tomato sauce and golden, bubbling mozzarella underneath, of course.",
+        "prep_instructions": "Preheat the oven to 500 degrees Fahrenheit with a rack in the upper third of the oven. If you’re using a baking stone or baking steel, place it on the upper rack.\n\nSpread pizza sauce evenly over the two pizzas, leaving about 1 inch bare around the edges. Evenly distribute the spinach on top of the sauce, followed by the cheese.\n\nTop the pizzas with artichoke, bell pepper, red onion, tomatoes, olives and almonds (if using).",
+        "cook_instructions": "Bake pizzas individually on the top rack until the crust is golden and the cheese is golden and bubbly, about 10 to 12 minutes (or significantly less, if you’re using a baking stone/steel—keep an eye on it).\n\nTransfer pizzas to a cutting board and sprinkle with with fresh basil, red pepper flakes and Parmesan, if using. Slice and serve! Leftover pizza keeps well in the refrigerator for 4 days, or for several months in the freezer.",
+        "prep_time": 25,
+        "cook_time": 20,
+        "serving_size": 6,
+        "user": 4,
+        "note": "MAKE IT NUT FREE: Omit the almonds.\n\nCHANGE IT UP: On top of the mozzarella, use any combination of the suggested toppings (up to 3 cups t0tal). The spinach and almonds are not essential.",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1618946440416-ef676a06a913?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=464&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    },
+    {
+      "model": "gastrognome_api.recipe",
+      "pk": 11,
+      "fields": {
+        "title": "Superfood Salmon Salad",
+        "genre": 3,
+        "description": "This salmon salad is loaded with roasted sweet potato croutons, avocado, pickled onions and dressed in a light lemon vinaigrette! It’s an easy go-to meal you’ll love having as part of your weekly rotation.",
+        "prep_instructions": "Make pickled red onions and the lemon vinaigrette dressing.\n\nSeason salmon filets with sea salt and ground pepper. Heat oil in a large skillet (a cast-iron works great) over medium-high heat.",
+        "cook_instructions": "Place salmon in pan, skin side up for about 4 minutes or until the flesh is golden brown. Turn and cook until salmon is medium-rare, about 4 more minutes.\n\nIn a salad bowl, toss greens with sweet potato croutons, pickled red onions, feta and pepitas.\n\nDivide between 2 plates. Top salad with salmon and avocado. Then drizzle with the lemon vinaigrette. Season with additional salt and pepper, to taste.",
+        "prep_time": 15,
+        "cook_time": 40,
+        "serving_size": 3,
+        "user": 6,
+        "note": "Feel free to switch up your mix-ins for this superfood salad… I often do! Sometimes I change up the veggies based on what I have on hand. Feel free to get creative and make this your own!",
+        "created_on": "2022-10-21T21:19:24.892Z",
+        "image": "https://images.unsplash.com/photo-1508170754725-6e9a5cfbcabf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80",
+        "ingredients": [],
+        "categories": []
+      }
+    }
+  ]

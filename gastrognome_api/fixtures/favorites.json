@@ -1,0 +1,122 @@
+[
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 5,
+      "fields": {
+        "user": 1,
+        "recipe": 1
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 6,
+      "fields": {
+        "user": 1,
+        "recipe": 2
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 7,
+      "fields": {
+        "user": 4,
+        "recipe": 4
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 10,
+      "fields": {
+        "user": 2,
+        "recipe": 2
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 11,
+      "fields": {
+        "user": 2,
+        "recipe": 1
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 12,
+      "fields": {
+        "user": 2,
+        "recipe": 3
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 13,
+      "fields": {
+        "user": 3,
+        "recipe": 7
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 14,
+      "fields": {
+        "user": 3,
+        "recipe": 6
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 15,
+      "fields": {
+        "user": 5,
+        "recipe": 6
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 16,
+      "fields": {
+        "user": 5,
+        "recipe": 7
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 18,
+      "fields": {
+        "user": 4,
+        "recipe": 3
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 20,
+      "fields": {
+        "user": 6,
+        "recipe": 10
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 21,
+      "fields": {
+        "user": 6,
+        "recipe": 7
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 22,
+      "fields": {
+        "user": 6,
+        "recipe": 4
+      }
+    },
+    {
+      "model": "gastrognome_api.favorite",
+      "pk": 23,
+      "fields": {
+        "user": 4,
+        "recipe": 5
+      }
+    }
+  ]

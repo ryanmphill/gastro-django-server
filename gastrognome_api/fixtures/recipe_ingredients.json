@@ -1,0 +1,1012 @@
+[
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 1,
+      "fields": {
+        "ingredient": 1,
+        "recipe": 2,
+        "quantity": "1",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 2,
+      "fields": {
+        "ingredient": 6,
+        "recipe": 1,
+        "quantity": "4",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 3,
+      "fields": {
+        "ingredient": 2,
+        "recipe": 1,
+        "quantity": "4",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 4,
+      "fields": {
+        "ingredient": 5,
+        "recipe": 1,
+        "quantity": "3",
+        "quantity_unit": "stalks"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 5,
+      "fields": {
+        "ingredient": 7,
+        "recipe": 1,
+        "quantity": "1/2",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 6,
+      "fields": {
+        "ingredient": 3,
+        "recipe": 1,
+        "quantity": "2",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 7,
+      "fields": {
+        "ingredient": 8,
+        "recipe": 1,
+        "quantity": "2",
+        "quantity_unit": "cloves"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 8,
+      "fields": {
+        "ingredient": 4,
+        "recipe": 1,
+        "quantity": "1/2",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 9,
+      "fields": {
+        "ingredient": 9,
+        "recipe": 1,
+        "quantity": "1/4",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 10,
+      "fields": {
+        "ingredient": 10,
+        "recipe": 1,
+        "quantity": "1/2",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 11,
+      "fields": {
+        "ingredient": 70,
+        "recipe": 3,
+        "quantity": "3",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 12,
+      "fields": {
+        "ingredient": 213,
+        "recipe": 3,
+        "quantity": "1/4",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 13,
+      "fields": {
+        "ingredient": 290,
+        "recipe": 3,
+        "quantity": "1",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 14,
+      "fields": {
+        "ingredient": 291,
+        "recipe": 3,
+        "quantity": "1",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 15,
+      "fields": {
+        "ingredient": 292,
+        "recipe": 3,
+        "quantity": "2/3",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 16,
+      "fields": {
+        "ingredient": 293,
+        "recipe": 3,
+        "quantity": "2",
+        "quantity_unit": "tbsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 17,
+      "fields": {
+        "ingredient": 149,
+        "recipe": 3,
+        "quantity": "1/2",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 18,
+      "fields": {
+        "ingredient": 42,
+        "recipe": 3,
+        "quantity": "1/2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 19,
+      "fields": {
+        "ingredient": 288,
+        "recipe": 3,
+        "quantity": "1/2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 20,
+      "fields": {
+        "ingredient": 214,
+        "recipe": 3,
+        "quantity": "1",
+        "quantity_unit": "tbsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 21,
+      "fields": {
+        "ingredient": 289,
+        "recipe": 3,
+        "quantity": "1/2",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 22,
+      "fields": {
+        "ingredient": 291,
+        "recipe": 4,
+        "quantity": "6",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 23,
+      "fields": {
+        "ingredient": 254,
+        "recipe": 4,
+        "quantity": "1/4",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 24,
+      "fields": {
+        "ingredient": 37,
+        "recipe": 4,
+        "quantity": "2",
+        "quantity_unit": "tbsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 25,
+      "fields": {
+        "ingredient": 295,
+        "recipe": 4,
+        "quantity": "1",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 26,
+      "fields": {
+        "ingredient": 13,
+        "recipe": 4,
+        "quantity": "2",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 27,
+      "fields": {
+        "ingredient": 17,
+        "recipe": 4,
+        "quantity": "2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 28,
+      "fields": {
+        "ingredient": 194,
+        "recipe": 4,
+        "quantity": "1/4",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 29,
+      "fields": {
+        "ingredient": 118,
+        "recipe": 4,
+        "quantity": "1/4",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 30,
+      "fields": {
+        "ingredient": 8,
+        "recipe": 4,
+        "quantity": "2",
+        "quantity_unit": "cloves"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 31,
+      "fields": {
+        "ingredient": 294,
+        "recipe": 4,
+        "quantity": "1/4",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 32,
+      "fields": {
+        "ingredient": 39,
+        "recipe": 5,
+        "quantity": "2",
+        "quantity_unit": "tbsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 33,
+      "fields": {
+        "ingredient": 297,
+        "recipe": 5,
+        "quantity": "2",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 34,
+      "fields": {
+        "ingredient": 211,
+        "recipe": 5,
+        "quantity": "1/4",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 35,
+      "fields": {
+        "ingredient": 288,
+        "recipe": 5,
+        "quantity": "2",
+        "quantity_unit": "tbsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 36,
+      "fields": {
+        "ingredient": 40,
+        "recipe": 5,
+        "quantity": "1/4",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 37,
+      "fields": {
+        "ingredient": 254,
+        "recipe": 5,
+        "quantity": "1/2",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 38,
+      "fields": {
+        "ingredient": 283,
+        "recipe": 5,
+        "quantity": "3/4",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 39,
+      "fields": {
+        "ingredient": 296,
+        "recipe": 5,
+        "quantity": "4",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 40,
+      "fields": {
+        "ingredient": 298,
+        "recipe": 6,
+        "quantity": "2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 41,
+      "fields": {
+        "ingredient": 15,
+        "recipe": 6,
+        "quantity": "1",
+        "quantity_unit": "bunch"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 42,
+      "fields": {
+        "ingredient": 26,
+        "recipe": 6,
+        "quantity": "1",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 43,
+      "fields": {
+        "ingredient": 31,
+        "recipe": 6,
+        "quantity": "1/4",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 44,
+      "fields": {
+        "ingredient": 17,
+        "recipe": 6,
+        "quantity": "5",
+        "quantity_unit": "oz"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 45,
+      "fields": {
+        "ingredient": 301,
+        "recipe": 6,
+        "quantity": "1 1/2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 46,
+      "fields": {
+        "ingredient": 200,
+        "recipe": 6,
+        "quantity": "1",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 47,
+      "fields": {
+        "ingredient": 40,
+        "recipe": 6,
+        "quantity": "1/2",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 48,
+      "fields": {
+        "ingredient": 254,
+        "recipe": 6,
+        "quantity": "1/2",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 49,
+      "fields": {
+        "ingredient": 37,
+        "recipe": 6,
+        "quantity": "2",
+        "quantity_unit": "tbsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 50,
+      "fields": {
+        "ingredient": 302,
+        "recipe": 6,
+        "quantity": "8",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 51,
+      "fields": {
+        "ingredient": 303,
+        "recipe": 6,
+        "quantity": "1/2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 52,
+      "fields": {
+        "ingredient": 299,
+        "recipe": 6,
+        "quantity": "1",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 53,
+      "fields": {
+        "ingredient": 300,
+        "recipe": 6,
+        "quantity": "3/4",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 54,
+      "fields": {
+        "ingredient": 7,
+        "recipe": 7,
+        "quantity": "1",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 55,
+      "fields": {
+        "ingredient": 26,
+        "recipe": 7,
+        "quantity": "1",
+        "quantity_unit": "teaspoon"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 56,
+      "fields": {
+        "ingredient": 40,
+        "recipe": 7,
+        "quantity": "1",
+        "quantity_unit": "teaspoon"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 57,
+      "fields": {
+        "ingredient": 305,
+        "recipe": 7,
+        "quantity": "4",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 58,
+      "fields": {
+        "ingredient": 282,
+        "recipe": 7,
+        "quantity": "1",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 59,
+      "fields": {
+        "ingredient": 47,
+        "recipe": 7,
+        "quantity": "1",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 60,
+      "fields": {
+        "ingredient": 306,
+        "recipe": 7,
+        "quantity": "14 1/2",
+        "quantity_unit": "oz"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 61,
+      "fields": {
+        "ingredient": 278,
+        "recipe": 7,
+        "quantity": "4",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 62,
+      "fields": {
+        "ingredient": 307,
+        "recipe": 7,
+        "quantity": "1/4",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 63,
+      "fields": {
+        "ingredient": 304,
+        "recipe": 7,
+        "quantity": "3",
+        "quantity_unit": "teaspoons"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 64,
+      "fields": {
+        "ingredient": 88,
+        "recipe": 7,
+        "quantity": "2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 65,
+      "fields": {
+        "ingredient": 21,
+        "recipe": 7,
+        "quantity": "1",
+        "quantity_unit": "teaspoon"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 66,
+      "fields": {
+        "ingredient": 22,
+        "recipe": 7,
+        "quantity": "1",
+        "quantity_unit": "teaspoon"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 67,
+      "fields": {
+        "ingredient": 314,
+        "recipe": 8,
+        "quantity": "1",
+        "quantity_unit": "pounds"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 68,
+      "fields": {
+        "ingredient": 309,
+        "recipe": 8,
+        "quantity": "1",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 69,
+      "fields": {
+        "ingredient": 195,
+        "recipe": 8,
+        "quantity": "2",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 70,
+      "fields": {
+        "ingredient": 21,
+        "recipe": 8,
+        "quantity": "6",
+        "quantity_unit": "leaves"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 71,
+      "fields": {
+        "ingredient": 315,
+        "recipe": 8,
+        "quantity": "6",
+        "quantity_unit": "oz"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 72,
+      "fields": {
+        "ingredient": 84,
+        "recipe": 8,
+        "quantity": "6",
+        "quantity_unit": "oz"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 73,
+      "fields": {
+        "ingredient": 308,
+        "recipe": 9,
+        "quantity": "12",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 74,
+      "fields": {
+        "ingredient": 195,
+        "recipe": 9,
+        "quantity": "4",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 75,
+      "fields": {
+        "ingredient": 9,
+        "recipe": 9,
+        "quantity": "1/2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 76,
+      "fields": {
+        "ingredient": 310,
+        "recipe": 9,
+        "quantity": "1/2",
+        "quantity_unit": "lb"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 78,
+      "fields": {
+        "ingredient": 7,
+        "recipe": 9,
+        "quantity": "1",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 79,
+      "fields": {
+        "ingredient": 8,
+        "recipe": 9,
+        "quantity": "2",
+        "quantity_unit": "cloves"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 80,
+      "fields": {
+        "ingredient": 309,
+        "recipe": 9,
+        "quantity": "36",
+        "quantity_unit": "oz"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 81,
+      "fields": {
+        "ingredient": 312,
+        "recipe": 9,
+        "quantity": "2",
+        "quantity_unit": "tbsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 82,
+      "fields": {
+        "ingredient": 313,
+        "recipe": 9,
+        "quantity": "2",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 83,
+      "fields": {
+        "ingredient": 191,
+        "recipe": 9,
+        "quantity": "2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 84,
+      "fields": {
+        "ingredient": 25,
+        "recipe": 9,
+        "quantity": "1/4",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 85,
+      "fields": {
+        "ingredient": 97,
+        "recipe": 9,
+        "quantity": "1",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 86,
+      "fields": {
+        "ingredient": 314,
+        "recipe": 10,
+        "quantity": "1",
+        "quantity_unit": "lb"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 87,
+      "fields": {
+        "ingredient": 316,
+        "recipe": 10,
+        "quantity": "1",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 88,
+      "fields": {
+        "ingredient": 195,
+        "recipe": 10,
+        "quantity": "2 1/2",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 89,
+      "fields": {
+        "ingredient": 84,
+        "recipe": 10,
+        "quantity": "1/2",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 90,
+      "fields": {
+        "ingredient": 317,
+        "recipe": 10,
+        "quantity": "1/2",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 91,
+      "fields": {
+        "ingredient": 318,
+        "recipe": 10,
+        "quantity": "1/2",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 92,
+      "fields": {
+        "ingredient": 319,
+        "recipe": 10,
+        "quantity": "1/2",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 93,
+      "fields": {
+        "ingredient": 21,
+        "recipe": 10,
+        "quantity": "1/4",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 95,
+      "fields": {
+        "ingredient": 153,
+        "recipe": 11,
+        "quantity": "1",
+        "quantity_unit": "Tbsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 96,
+      "fields": {
+        "ingredient": 41,
+        "recipe": 11,
+        "quantity": "1/2",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 97,
+      "fields": {
+        "ingredient": 40,
+        "recipe": 11,
+        "quantity": "1/2",
+        "quantity_unit": "tsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 98,
+      "fields": {
+        "ingredient": 320,
+        "recipe": 11,
+        "quantity": "4",
+        "quantity_unit": "cups"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 99,
+      "fields": {
+        "ingredient": 65,
+        "recipe": 11,
+        "quantity": "1/2",
+        "quantity_unit": ""
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 100,
+      "fields": {
+        "ingredient": 321,
+        "recipe": 11,
+        "quantity": "1/4",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 101,
+      "fields": {
+        "ingredient": 322,
+        "recipe": 11,
+        "quantity": "2",
+        "quantity_unit": "Tbsp"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 102,
+      "fields": {
+        "ingredient": 323,
+        "recipe": 11,
+        "quantity": "1/3",
+        "quantity_unit": "cup"
+      }
+    },
+    {
+      "model": "gastrognome_api.recipeingredient",
+      "pk": 103,
+      "fields": {
+        "ingredient": 270,
+        "recipe": 11,
+        "quantity": "2",
+        "quantity_unit": "lb"
+      }
+    }
+  ]

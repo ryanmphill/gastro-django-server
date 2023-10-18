@@ -1,0 +1,418 @@
+[
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 1,
+      "fields": {
+        "recipe": 1,
+        "category": 1
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 2,
+      "fields": {
+        "recipe": 1,
+        "category": 5
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 3,
+      "fields": {
+        "recipe": 1,
+        "category": 31
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 4,
+      "fields": {
+        "recipe": 1,
+        "category": 54
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 5,
+      "fields": {
+        "recipe": 1,
+        "category": 80
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 6,
+      "fields": {
+        "recipe": 1,
+        "category": 119
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 7,
+      "fields": {
+        "recipe": 1,
+        "category": 120
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 8,
+      "fields": {
+        "recipe": 1,
+        "category": 122
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 9,
+      "fields": {
+        "recipe": 2,
+        "category": 1
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 10,
+      "fields": {
+        "recipe": 2,
+        "category": 123
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 11,
+      "fields": {
+        "recipe": 2,
+        "category": 47
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 12,
+      "fields": {
+        "recipe": 3,
+        "category": 47
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 13,
+      "fields": {
+        "recipe": 3,
+        "category": 149
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 14,
+      "fields": {
+        "recipe": 3,
+        "category": 132
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 15,
+      "fields": {
+        "recipe": 3,
+        "category": 138
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 16,
+      "fields": {
+        "recipe": 3,
+        "category": 110
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 17,
+      "fields": {
+        "recipe": 4,
+        "category": 1
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 18,
+      "fields": {
+        "recipe": 4,
+        "category": 3
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 19,
+      "fields": {
+        "recipe": 4,
+        "category": 149
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 20,
+      "fields": {
+        "recipe": 4,
+        "category": 127
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 21,
+      "fields": {
+        "recipe": 4,
+        "category": 111
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 22,
+      "fields": {
+        "recipe": 5,
+        "category": 28
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 23,
+      "fields": {
+        "recipe": 5,
+        "category": 47
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 24,
+      "fields": {
+        "recipe": 5,
+        "category": 50
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 25,
+      "fields": {
+        "recipe": 5,
+        "category": 135
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 26,
+      "fields": {
+        "recipe": 6,
+        "category": 23
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 27,
+      "fields": {
+        "recipe": 6,
+        "category": 122
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 28,
+      "fields": {
+        "recipe": 6,
+        "category": 123
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 29,
+      "fields": {
+        "recipe": 6,
+        "category": 111
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 30,
+      "fields": {
+        "recipe": 7,
+        "category": 123
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 31,
+      "fields": {
+        "recipe": 7,
+        "category": 136
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 32,
+      "fields": {
+        "recipe": 7,
+        "category": 132
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 33,
+      "fields": {
+        "recipe": 7,
+        "category": 122
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 34,
+      "fields": {
+        "recipe": 7,
+        "category": 138
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 35,
+      "fields": {
+        "recipe": 6,
+        "category": 1
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 36,
+      "fields": {
+        "recipe": 8,
+        "category": 21
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 37,
+      "fields": {
+        "recipe": 8,
+        "category": 17
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 38,
+      "fields": {
+        "recipe": 8,
+        "category": 30
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 39,
+      "fields": {
+        "recipe": 8,
+        "category": 47
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 40,
+      "fields": {
+        "recipe": 8,
+        "category": 123
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 41,
+      "fields": {
+        "recipe": 9,
+        "category": 21
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 42,
+      "fields": {
+        "recipe": 9,
+        "category": 119
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 43,
+      "fields": {
+        "recipe": 10,
+        "category": 1
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 44,
+      "fields": {
+        "recipe": 10,
+        "category": 21
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 45,
+      "fields": {
+        "recipe": 10,
+        "category": 135
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 46,
+      "fields": {
+        "recipe": 10,
+        "category": 129
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 47,
+      "fields": {
+        "recipe": 10,
+        "category": 82
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 48,
+      "fields": {
+        "recipe": 10,
+        "category": 47
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 49,
+      "fields": {
+        "recipe": 11,
+        "category": 79
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 50,
+      "fields": {
+        "recipe": 11,
+        "category": 127
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 51,
+      "fields": {
+        "recipe": 11,
+        "category": 143
+      }
+    },
+    {
+      "model": "gastrognome_api.recipecategory",
+      "pk": 52,
+      "fields": {
+        "recipe": 11,
+        "category": 8
+      }
+    }
+  ]
