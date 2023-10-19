@@ -15,11 +15,16 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from gastrognome_api.views import (register_user, login_user)
+from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from gastrognome_api import views
+
+router = DefaultRouter(trailing_slash=False)
+router.register(r'recipes', views.RecipeView, 'recipe')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('register', register_user),
-    path('login', login_user),
+    path('register', views.register_user),
+    path('login', views.login_user),
+    path('', include(router.urls)),
 ]
