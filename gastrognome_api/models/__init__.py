@@ -7,3 +7,4 @@ from .recipe_category import RecipeCategory
 from .recipe_ingredient import RecipeIngredient
 from .recipe import Recipe
 from .gastro_user import GastroUser
+from .category_type import CategoryType

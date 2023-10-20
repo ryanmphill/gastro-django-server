@@ -5,7 +5,7 @@ from rest_framework.decorators import action, permission_classes
 from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.exceptions import ValidationError
 from django.core.exceptions import ValidationError
-from gastrognome_api.models import (Category, GastroUser)
+from gastrognome_api.models import (Category, GastroUser, CategoryType)
 from gastrognome_api.serializers import (CategorySerializer)
 
 class CategoryView(ViewSet):
@@ -33,10 +33,11 @@ class CategoryView(ViewSet):
         """Create a new category"""
         try:
             current_gastro_user = GastroUser.objects.get(user=request.auth.user)
+            category_type = CategoryType.objects.get(pk=request.data['category_type'])
             if current_gastro_user.user.is_staff == True:
                 new_category = Category.objects.create(
                     name=request.data['name'],
-                    category_type=request.data['category_type']
+                    category_type=category_type
                 )
                 serializer = CategorySerializer(new_category)
                 return Response(serializer.data, status=status.HTTP_201_CREATED)
@@ -46,6 +47,8 @@ class CategoryView(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
         except KeyError as ex:
             return Response({'message': f"{ex.args[0]} is required"}, status=status.HTTP_400_BAD_REQUEST)
+        except CategoryType.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
     def update(self, request, pk):
         """Update a category"""
@@ -53,12 +56,12 @@ class CategoryView(ViewSet):
         try:
             current_gastro_user = GastroUser.objects.get(user=request.auth.user)
 
-            category = Category.objects.get(
-                pk=pk)
+            category = Category.objects.get(pk=pk)
+            category_type = CategoryType.objects.get(pk=request.data['category_type'])
             
             if current_gastro_user.user.is_staff == True:
                 category.name=request.data['name']
-                category.category_type=request.data['category_type']
+                category.category_type=category_type
                 category.save()
                 return Response(None, status=status.HTTP_204_NO_CONTENT)
             else:
@@ -66,7 +69,9 @@ class CategoryView(ViewSet):
         
         except ValidationError as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
-        except category.DoesNotExist as ex:
+        except Category.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+        except CategoryType.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
         except KeyError as ex:
             return Response({'message': f"{ex.args[0]} is required"}, status=status.HTTP_400_BAD_REQUEST)

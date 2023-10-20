@@ -8,6 +8,7 @@ python3 manage.py migrate gastrognome_api
 python3 manage.py loaddata users
 python3 manage.py loaddata tokens
 python3 manage.py loaddata gastro_users
+python3 manage.py loaddata category_types
 python3 manage.py loaddata categories
 python3 manage.py loaddata ingredients
 python3 manage.py loaddata genres

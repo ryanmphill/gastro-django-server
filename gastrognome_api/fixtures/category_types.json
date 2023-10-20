@@ -1,0 +1,44 @@
+[
+    {
+        "model": "gastrognome_api.categorytype",
+        "pk": 1,
+        "fields": {
+          "label": "diet"
+        }
+    },
+    {
+        "model": "gastrognome_api.categorytype",
+        "pk": 2,
+        "fields": {
+          "label": "cuisine"
+        }
+    },
+    {
+        "model": "gastrognome_api.categorytype",
+        "pk": 3,
+        "fields": {
+          "label": "cooking method"
+        }
+    },
+    {
+        "model": "gastrognome_api.categorytype",
+        "pk": 4,
+        "fields": {
+          "label": "general"
+        }
+    },
+    {
+        "model": "gastrognome_api.categorytype",
+        "pk": 5,
+        "fields": {
+          "label": "flavor"
+        }
+    },
+    {
+        "model": "gastrognome_api.categorytype",
+        "pk": 6,
+        "fields": {
+          "label": "quality"
+        }
+    }
+]
