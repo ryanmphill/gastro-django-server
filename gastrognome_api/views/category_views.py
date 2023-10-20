@@ -16,9 +16,18 @@ class CategoryView(ViewSet):
     def list(self, request):
         """Get a list of all categories
         """
-        categories = Category.objects.all()
-        serializer = CategorySerializer(categories, many=True)
-        return Response(serializer.data)
+        try:
+            categories = Category.objects.all()
+
+            category_type_query = request.query_params.get('type', None)
+            if category_type_query:
+                CategoryType.objects.get(pk=category_type_query)
+                categories = categories.filter(category_type__id=category_type_query)
+
+            serializer = CategorySerializer(categories, many=True)
+            return Response(serializer.data)
+        except CategoryType.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
     
     def retrieve(self, request, pk):
         """Get a single category"""
