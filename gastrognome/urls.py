@@ -21,6 +21,7 @@ from gastrognome_api import views
 
 router = DefaultRouter(trailing_slash=False)
 router.register(r'recipes', views.RecipeView, 'recipe')
+router.register(r'ingredients', views.IngredientView, 'ingredient')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
