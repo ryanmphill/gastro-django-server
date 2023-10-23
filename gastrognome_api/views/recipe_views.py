@@ -1,4 +1,5 @@
 from django.db import IntegrityError
+from django.db.models import Q, Count
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import status
@@ -18,6 +19,38 @@ class RecipeView(ViewSet):
         """Get a list of all recipes
         """
         recipes = Recipe.objects.all()
+
+        category_query = request.query_params.get('category', None)
+        search_query = request.query_params.get('search', None)
+        following_only_query = request.query_params.get('following', None)
+        
+        if following_only_query and following_only_query.lower() == "true":
+            try:
+                current_user = GastroUser.objects.get(user=request.auth.user)
+                users_following = current_user.following.all()
+                recipes = recipes.filter(user__in=users_following)
+            except AttributeError:
+                return Response(
+                    {'message': "You must be an authenticated user to view recipes from users you are following"},
+                      status=status.HTTP_400_BAD_REQUEST)
+            
+        if search_query:
+            # Users can search for recipes by title OR author's name
+            search_filter = (
+                Q(title__icontains=search_query) | 
+                Q(user__user__first_name__icontains=search_query) | 
+                Q(user__user__last_name__icontains=search_query)
+            )
+            recipes = recipes.filter(search_filter)
+
+        if category_query:
+            category_ids = request.query_params.getlist('category')
+            # Count the number of selected categories present on each recipe.
+            recipes = recipes.annotate(
+                matching_category_count=Count('categories', filter=Q(categories__in=category_ids)))
+            # Filter for only the recipes that contain ALL of the selected categories sent in the query
+            recipes = recipes.filter(matching_category_count=len(category_ids))
+
         serializer = RecipeSerializer(recipes, many=True)
         return Response(serializer.data)
     
