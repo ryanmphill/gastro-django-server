@@ -22,7 +22,18 @@ class RecipeView(ViewSet):
 
         category_query = request.query_params.get('category', None)
         search_query = request.query_params.get('search', None)
-
+        following_only_query = request.query_params.get('following', None)
+        
+        if following_only_query and following_only_query.lower() == "true":
+            try:
+                current_user = GastroUser.objects.get(user=request.auth.user)
+                users_following = current_user.following.all()
+                recipes = recipes.filter(user__in=users_following)
+            except AttributeError:
+                return Response(
+                    {'message': "You must be an authenticated user to view recipes from users you are following"},
+                      status=status.HTTP_400_BAD_REQUEST)
+            
         if search_query:
             # Users can search for recipes by title OR author's name
             search_filter = (
