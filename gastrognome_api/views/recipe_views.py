@@ -126,3 +126,18 @@ class RecipeView(ViewSet):
             return Response({'message': f"{ex.args[0]}. Ensure that all category ids are valid"}, status=status.HTTP_404_NOT_FOUND)
         except KeyError as ex:
             return Response({'message': f"{ex.args[0]} is required"}, status=status.HTTP_400_BAD_REQUEST)
+
+    def destroy(self, request, pk):
+        """Delete a Recipe"""
+        try:
+            current_gastro_user = GastroUser.objects.get(user=request.auth.user)
+
+            recipe = Recipe.objects.get(pk=pk)
+
+            if current_gastro_user.user.is_staff == True or current_gastro_user.user.id == recipe.user.id:
+                recipe.delete()
+                return Response(None, status=status.HTTP_204_NO_CONTENT)
+            else:
+                return Response({'message': "You can only delete recipes you have authored"}, status=status.HTTP_403_FORBIDDEN)
+        except Recipe.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
