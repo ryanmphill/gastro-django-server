@@ -21,6 +21,16 @@ class RecipeView(ViewSet):
         recipes = Recipe.objects.all()
 
         category_query = request.query_params.get('category', None)
+        search_query = request.query_params.get('search', None)
+
+        if search_query:
+            # Users can search for recipes by title OR author's name
+            search_filter = (
+                Q(title__icontains=search_query) | 
+                Q(user__user__first_name__icontains=search_query) | 
+                Q(user__user__last_name__icontains=search_query)
+            )
+            recipes = recipes.filter(search_filter)
 
         if category_query:
             category_ids = request.query_params.getlist('category')
