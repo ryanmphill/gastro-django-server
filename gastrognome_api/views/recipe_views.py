@@ -1,4 +1,5 @@
 from django.db import IntegrityError
+from django.db.models import Q, Count
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import status
@@ -18,6 +19,17 @@ class RecipeView(ViewSet):
         """Get a list of all recipes
         """
         recipes = Recipe.objects.all()
+
+        category_query = request.query_params.get('category', None)
+
+        if category_query:
+            category_ids = request.query_params.getlist('category')
+            # Count the number of selected categories present on each recipe.
+            recipes = recipes.annotate(
+                matching_category_count=Count('categories', filter=Q(categories__in=category_ids)))
+            # Filter for only the recipes that contain ALL of the selected categories sent in the query
+            recipes = recipes.filter(matching_category_count=len(category_ids))
+
         serializer = RecipeSerializer(recipes, many=True)
         return Response(serializer.data)
     
