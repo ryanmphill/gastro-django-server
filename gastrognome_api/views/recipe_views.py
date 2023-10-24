@@ -104,7 +104,8 @@ class RecipeView(ViewSet):
         except Genre.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
         except IntegrityError as ex:
-            return Response({'message': f"{ex.args[0]}. Ensure that all category ids are valid"}, status=status.HTTP_404_NOT_FOUND)
+            return Response({'message': f"{ex.args[0]}. Ensure that all category ids are valid"}, 
+                            status=status.HTTP_404_NOT_FOUND)
         except KeyError as ex:
             return Response({'message': f"{ex.args[0]} is required"}, status=status.HTTP_400_BAD_REQUEST)
 
@@ -145,7 +146,8 @@ class RecipeView(ViewSet):
                 recipe.save()
                 return Response(None, status=status.HTTP_204_NO_CONTENT)
             else:
-                return Response({'message': "You must be the author to edit a recipe"}, status=status.HTTP_403_FORBIDDEN)
+                return Response({'message': "You must be the author to edit a recipe"}, 
+                                status=status.HTTP_403_FORBIDDEN)
         
         except ValidationError as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
@@ -156,7 +158,8 @@ class RecipeView(ViewSet):
         except Recipe.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
         except IntegrityError as ex:
-            return Response({'message': f"{ex.args[0]}. Ensure that all category ids are valid"}, status=status.HTTP_404_NOT_FOUND)
+            return Response({'message': f"{ex.args[0]}. Ensure that all category ids are valid"}, 
+                            status=status.HTTP_404_NOT_FOUND)
         except KeyError as ex:
             return Response({'message': f"{ex.args[0]} is required"}, status=status.HTTP_400_BAD_REQUEST)
 
@@ -171,7 +174,8 @@ class RecipeView(ViewSet):
                 recipe.delete()
                 return Response(None, status=status.HTTP_204_NO_CONTENT)
             else:
-                return Response({'message': "You can only delete recipes you have authored"}, status=status.HTTP_403_FORBIDDEN)
+                return Response({'message': "You can only delete recipes you have authored"}, 
+                                status=status.HTTP_403_FORBIDDEN)
         except Recipe.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
 
@@ -182,7 +186,11 @@ class RecipeView(ViewSet):
             current_user = GastroUser.objects.get(user=request.auth.user)
             recipe_to_favorite = Recipe.objects.get(pk=pk)
 
-            current_user.favorites.add(recipe_to_favorite)
+            if recipe_to_favorite not in current_user.favorites.all():
+                current_user.favorites.add(recipe_to_favorite)
+            else:
+                return Response({'message': 'Already added to favorites'}, status=status.HTTP_400_BAD_REQUEST)
+            
             serializer = GastroUserFavoriteSerializer(current_user)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         except GastroUser.DoesNotExist as ex:
@@ -197,7 +205,12 @@ class RecipeView(ViewSet):
             current_user = GastroUser.objects.get(user=request.auth.user)
             recipe_to_unfavorite = Recipe.objects.get(pk=pk)
 
-            current_user.favorites.remove(recipe_to_unfavorite)
+            if recipe_to_unfavorite in current_user.favorites.all():
+                current_user.favorites.remove(recipe_to_unfavorite)
+            else:
+                return Response({'message': 'Recipe not found in favorites - Unable to remove'}, 
+                                status=status.HTTP_400_BAD_REQUEST)
+            
             serializer = GastroUserFavoriteSerializer(current_user)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         except GastroUser.DoesNotExist as ex:

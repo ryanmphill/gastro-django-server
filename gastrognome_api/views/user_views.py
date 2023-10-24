@@ -1,12 +1,11 @@
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import status
-from rest_framework.decorators import action, permission_classes
-from rest_framework.permissions import IsAuthenticatedOrReadOnly
+from rest_framework.decorators import action
 from rest_framework.exceptions import ValidationError
 from django.core.exceptions import ValidationError
 from gastrognome_api.models import (GastroUser)
-from gastrognome_api.serializers import (GastroUserSerializer)
+from gastrognome_api.serializers import (GastroUserSerializer, GastroUserFollowSerializer)
 
 class UserView(ViewSet):
     """Handle requests for user information
@@ -41,14 +40,18 @@ class UserView(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
     
     @action(methods=['post'], detail=True)
-    def new_follow(self, request, pk):
+    def follow(self, request, pk):
         """Create a new follow relationship for the user"""
         try:
             current_user = GastroUser.objects.get(user=request.auth.user)
             user_to_follow = GastroUser.objects.get(pk=pk)
 
-            current_user.following.add(user_to_follow)
-            serializer = GastroUserSerializer(current_user)
+            if user_to_follow not in current_user.following.all():
+                current_user.following.add(user_to_follow)
+            else:
+                return Response({'message': 'Already followed user'}, status=status.HTTP_400_BAD_REQUEST)
+            
+            serializer = GastroUserFollowSerializer(current_user)
             return Response(serializer.data, status=status.HTTP_201_CREATED)
         except GastroUser.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
@@ -62,8 +65,13 @@ class UserView(ViewSet):
             current_user = GastroUser.objects.get(user=request.auth.user)
             user_to_unfollow = GastroUser.objects.get(pk=pk)
 
-            current_user.following.remove(user_to_unfollow)
-            serializer = GastroUserSerializer(current_user)
+            if user_to_unfollow in current_user.following.all():
+                current_user.following.remove(user_to_unfollow)
+            else:
+                return Response({'message': 'User not currently followed - Unable to unfollow'}, 
+                                status=status.HTTP_400_BAD_REQUEST)
+            
+            serializer = GastroUserFollowSerializer(current_user)
             return Response(serializer.data, status=status.HTTP_200_OK)
         except GastroUser.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
