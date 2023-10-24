@@ -8,7 +8,7 @@ from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.exceptions import ValidationError
 from django.core.exceptions import ValidationError
 from gastrognome_api.models import (Recipe, GastroUser, RecipeIngredient, Ingredient, Genre)
-from gastrognome_api.serializers import (RecipeSerializer)
+from gastrognome_api.serializers import (RecipeSerializer, GastroUserFavoriteSerializer)
 
 class RecipeView(ViewSet):
     """Handle requests for studies
@@ -174,3 +174,33 @@ class RecipeView(ViewSet):
                 return Response({'message': "You can only delete recipes you have authored"}, status=status.HTTP_403_FORBIDDEN)
         except Recipe.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+    @action(methods=['post'], detail=True)
+    def add_favorite(self, request, pk):
+        """Allow user to add recipe to favorites"""
+        try:
+            current_user = GastroUser.objects.get(user=request.auth.user)
+            recipe_to_favorite = Recipe.objects.get(pk=pk)
+
+            current_user.favorites.add(recipe_to_favorite)
+            serializer = GastroUserFavoriteSerializer(current_user)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        except GastroUser.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+        except ValidationError as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(methods=['delete'], detail=True)
+    def remove_favorite(self, request, pk):
+        """Allow user to remove recipe from favorites"""
+        try:
+            current_user = GastroUser.objects.get(user=request.auth.user)
+            recipe_to_unfavorite = Recipe.objects.get(pk=pk)
+
+            current_user.favorites.remove(recipe_to_unfavorite)
+            serializer = GastroUserFavoriteSerializer(current_user)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+        except GastroUser.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+        except ValidationError as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
