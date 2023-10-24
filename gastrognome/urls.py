@@ -25,6 +25,7 @@ router.register(r'ingredients', views.IngredientView, 'ingredient')
 router.register(r'genres', views.GenreView, 'genre')
 router.register(r'categories', views.CategoryView, 'category')
 router.register(r'category_types', views.CategoryTypeView, 'category_type')
+router.register(r'users', views.UserView, 'user')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
