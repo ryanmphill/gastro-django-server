@@ -44,12 +44,23 @@ class RecipeView(ViewSet):
             recipes = recipes.filter(search_filter)
 
         if category_query:
-            category_ids = request.query_params.getlist('category')
+            category_names = request.query_params.getlist('category')
+            print("category names:", category_names)
+
+            # Create a list of Q objects for case-insensitive matching of foreign key name against each category name
+            case_insensitive_qObject = [Q(categories__name__iexact=name) for name in category_names]
+
+            # Combine the Q objects using the OR operator
+            # Similar to the SQL query (category.name ILIKE 'Category1' OR category.name ILIKE 'Category2' OR ...)
+            matching_category_filter = case_insensitive_qObject[0]
+            for q_object in case_insensitive_qObject[1:]:
+                matching_category_filter |= q_object
+
             # Count the number of selected categories present on each recipe.
             recipes = recipes.annotate(
-                matching_category_count=Count('categories', filter=Q(categories__in=category_ids)))
+                matching_category_count=Count('categories', filter=matching_category_filter))
             # Filter for only the recipes that contain ALL of the selected categories sent in the query
-            recipes = recipes.filter(matching_category_count=len(category_ids))
+            recipes = recipes.filter(matching_category_count=len(category_names))
 
         serializer = RecipeSerializer(recipes, many=True)
         return Response(serializer.data)
