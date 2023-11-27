@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from gastrognome_api.models import Recipe
+from gastrognome_api.models import Recipe, GastroUser
 from gastrognome_api.serializers.gastro_user_serializer import GastroUserRecipeSerializer
 from gastrognome_api.serializers.recipe_ingredient_serializer import RecipeIngredientSerializer
 from gastrognome_api.serializers.category_serializer import RecipeCategorySerializer
@@ -17,3 +17,19 @@ class RecipeSerializer(serializers.ModelSerializer):
                   'serving_size', 'user', 'note', 'image', 'created_on', 'included_ingredients',
                   'categories')
         depth = 1
+
+class AuthoredRecipeSerializer(serializers.ModelSerializer):
+
+    recipes = RecipeSerializer(many=True)
+    
+    class Meta:
+        model = GastroUser
+        fields = ('recipes',)
+
+class FavoritedRecipeSerializer(serializers.ModelSerializer):
+
+    favorites = RecipeSerializer(many=True)
+    
+    class Meta:
+        model = GastroUser
+        fields = ('favorites',)
