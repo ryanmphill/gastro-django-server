@@ -1,15 +1,18 @@
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
 from rest_framework import status
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 from rest_framework.decorators import action
 from rest_framework.exceptions import ValidationError
 from django.core.exceptions import ValidationError
 from gastrognome_api.models import (GastroUser)
-from gastrognome_api.serializers import (GastroUserSerializer, GastroUserFollowSerializer)
+from gastrognome_api.serializers import (GastroUserSerializer, GastroUserFollowSerializer,
+                                         AuthoredRecipeSerializer, FavoritedRecipeSerializer)
 
 class UserView(ViewSet):
     """Handle requests for user information
     """
+    permission_classes = [IsAuthenticatedOrReadOnly]
     
     def list(self, request):
         """Get a list of all users
@@ -36,8 +39,11 @@ class UserView(ViewSet):
             return Response(serializer.data, status=status.HTTP_200_OK)
         except GastroUser.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
-        except ValidationError as ex:
+        except ValidationError as ex: # Invalid Token
             return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
+        except AttributeError as ex:
+            return Response({'message': "No user credentials provided. Make sure a token is included in the Authorization header"}, 
+                            status=status.HTTP_401_UNAUTHORIZED)
     
     @action(methods=['post'], detail=True)
     def follow(self, request, pk):
@@ -77,3 +83,23 @@ class UserView(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
         except ValidationError as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(methods=['get'], detail=True)
+    def authored_recipes(self, request, pk):
+        """Retrieve the authored recipes for a given user"""
+        try:
+            user = GastroUser.objects.get(pk=pk)
+            serializer = AuthoredRecipeSerializer(user)
+            return Response(serializer.data['recipes'])
+        except GastroUser.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+
+    @action(methods=['get'], detail=True)
+    def favorited_recipes(self, request, pk):
+        """Retrieve the favorited recipes for a given user"""
+        try:
+            user = GastroUser.objects.get(pk=pk)
+            serializer = FavoritedRecipeSerializer(user)
+            return Response(serializer.data['favorites'])
+        except GastroUser.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
