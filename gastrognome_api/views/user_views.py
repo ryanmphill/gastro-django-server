@@ -7,7 +7,8 @@ from rest_framework.exceptions import ValidationError
 from django.core.exceptions import ValidationError
 from gastrognome_api.models import (GastroUser)
 from gastrognome_api.serializers import (GastroUserSerializer, GastroUserFollowSerializer,
-                                         AuthoredRecipeSerializer, FavoritedRecipeSerializer)
+                                         AuthoredRecipeSerializer, FavoritedRecipeSerializer,
+                                         ExpandedFollowingSerializer, ExpandedFollowersSerializer)
 
 class UserView(ViewSet):
     """Handle requests for user information
@@ -101,5 +102,25 @@ class UserView(ViewSet):
             user = GastroUser.objects.get(pk=pk)
             serializer = FavoritedRecipeSerializer(user)
             return Response(serializer.data['favorites'])
+        except GastroUser.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+    
+    @action(methods=['get'], detail=True)
+    def followers(self, request, pk):
+        """Retrieve the expanded followers for a given user"""
+        try:
+            user = GastroUser.objects.get(pk=pk)
+            serializer = ExpandedFollowersSerializer(user)
+            return Response(serializer.data['followed_by'])
+        except GastroUser.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+    
+    @action(methods=['get'], detail=True)
+    def following(self, request, pk):
+        """Retrieve the expanded users being followed by a given user"""
+        try:
+            user = GastroUser.objects.get(pk=pk)
+            serializer = ExpandedFollowingSerializer(user)
+            return Response(serializer.data['following'])
         except GastroUser.DoesNotExist as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
