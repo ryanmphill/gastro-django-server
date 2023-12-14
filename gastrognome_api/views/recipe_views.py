@@ -228,3 +228,33 @@ class RecipeView(ViewSet):
             return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
         except ValidationError as ex:
             return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
+
+    @action(methods=['post'], detail=True)
+    def authorized_to_edit(self, request, pk):
+        """Determines if a user is authorized to edit a given recipe
+        Returns the followin response dictionary
+
+        {
+            isAuthor: bool,
+            isAdmin: bool
+        }
+
+        Args:
+            request: the full http request object
+            pk: primary key of the recipe
+        """
+        try:
+            current_user = GastroUser.objects.get(user=request.auth.user)
+            authored_recipes = current_user.recipes
+            is_author = authored_recipes.filter(pk=pk).exists()
+            data = {
+                "isAuthor": is_author,
+                "isAdmin": current_user.user.is_staff
+            }
+            return Response(data)
+        except GastroUser.DoesNotExist as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_404_NOT_FOUND)
+        except ValidationError as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_400_BAD_REQUEST)
+        except AttributeError as ex:
+            return Response({'message': ex.args[0]}, status=status.HTTP_401_UNAUTHORIZED)
