@@ -3,6 +3,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 1,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sweet potato"
       }
     },
@@ -10,6 +12,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 2,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "russet potato"
       }
     },
@@ -17,6 +21,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 3,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "leek"
       }
     },
@@ -24,6 +30,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 4,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sour cream"
       }
     },
@@ -31,6 +39,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 5,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "celery"
       }
     },
@@ -38,6 +48,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 6,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "vegetable broth"
       }
     },
@@ -45,6 +57,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 7,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "yellow onion"
       }
     },
@@ -52,6 +66,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 8,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "garlic"
       }
     },
@@ -59,6 +75,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 9,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "parmesan cheese"
       }
     },
@@ -66,6 +84,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 10,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cheddar cheese"
       }
     },
@@ -73,6 +93,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 11,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "carrot"
       }
     },
@@ -80,6 +102,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 12,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "tomato"
       }
     },
@@ -87,6 +111,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 13,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "bell pepper"
       }
     },
@@ -94,6 +120,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 14,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "onion"
       }
     },
@@ -101,6 +129,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 15,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "broccoli"
       }
     },
@@ -108,6 +138,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 16,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cauliflower"
       }
     },
@@ -115,6 +147,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 17,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "spinach"
       }
     },
@@ -122,6 +156,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 18,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "mushroom"
       }
     },
@@ -129,6 +165,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 19,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "zucchini"
       }
     },
@@ -136,6 +174,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 20,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "eggplant"
       }
     },
@@ -143,6 +183,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 21,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "basil"
       }
     },
@@ -150,6 +192,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 22,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "oregano"
       }
     },
@@ -157,6 +201,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 23,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "thyme"
       }
     },
@@ -164,6 +210,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 24,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "rosemary"
       }
     },
@@ -171,6 +219,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 25,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "parsley"
       }
     },
@@ -178,6 +228,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 26,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cumin"
       }
     },
@@ -185,6 +237,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 27,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "coriander"
       }
     },
@@ -192,6 +246,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 28,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "paprika"
       }
     },
@@ -199,6 +255,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 29,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "turmeric"
       }
     },
@@ -206,6 +264,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 30,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "ginger"
       }
     },
@@ -213,6 +273,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 31,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cinnamon"
       }
     },
@@ -220,6 +282,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 32,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "nutmeg"
       }
     },
@@ -227,6 +291,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 33,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "honey"
       }
     },
@@ -234,6 +300,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 34,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "maple syrup"
       }
     },
@@ -241,6 +309,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 35,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "soy sauce"
       }
     },
@@ -248,6 +318,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 36,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "fish sauce"
       }
     },
@@ -255,6 +327,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 37,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "olive oil"
       }
     },
@@ -262,6 +336,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 38,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "vegetable oil"
       }
     },
@@ -269,6 +345,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 39,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "butter"
       }
     },
@@ -276,6 +354,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 40,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "salt"
       }
     },
@@ -283,6 +363,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 41,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pepper"
       }
     },
@@ -290,6 +372,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 42,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sugar"
       }
     },
@@ -297,6 +381,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 43,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "flour"
       }
     },
@@ -304,6 +390,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 44,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "rice"
       }
     },
@@ -311,6 +399,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 45,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pasta"
       }
     },
@@ -318,6 +408,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 46,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "bread"
       }
     },
@@ -325,6 +417,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 47,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "quinoa"
       }
     },
@@ -332,6 +426,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 48,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chicken"
       }
     },
@@ -339,6 +435,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 49,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "beef"
       }
     },
@@ -346,6 +444,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 50,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pork"
       }
     },
@@ -353,6 +453,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 51,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "apple"
       }
     },
@@ -360,6 +462,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 52,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "banana"
       }
     },
@@ -367,6 +471,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 53,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "orange"
       }
     },
@@ -374,6 +480,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 54,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "strawberry"
       }
     },
@@ -381,6 +489,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 55,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "blueberry"
       }
     },
@@ -388,6 +498,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 56,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "raspberry"
       }
     },
@@ -395,6 +507,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 57,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pineapple"
       }
     },
@@ -402,6 +516,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 58,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "watermelon"
       }
     },
@@ -409,6 +525,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 59,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "grapefruit"
       }
     },
@@ -416,6 +534,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 60,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "kiwi"
       }
     },
@@ -423,6 +543,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 61,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "mango"
       }
     },
@@ -430,6 +552,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 62,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "peach"
       }
     },
@@ -437,6 +561,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 63,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pear"
       }
     },
@@ -444,6 +570,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 64,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "plum"
       }
     },
@@ -451,6 +579,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 65,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "avocado"
       }
     },
@@ -458,6 +588,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 66,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "blackberry"
       }
     },
@@ -465,6 +597,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 67,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "coconut"
       }
     },
@@ -472,6 +606,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 68,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "grape"
       }
     },
@@ -479,6 +615,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 69,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lime"
       }
     },
@@ -486,6 +624,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 70,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lemon"
       }
     },
@@ -493,6 +633,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 71,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cherry"
       }
     },
@@ -500,6 +642,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 72,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pomegranate"
       }
     },
@@ -507,6 +651,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 73,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "apricot"
       }
     },
@@ -514,6 +660,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 74,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dragonfruit"
       }
     },
@@ -521,6 +669,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 75,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "melon"
       }
     },
@@ -528,6 +678,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 76,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "nectarine"
       }
     },
@@ -535,6 +687,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 77,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "passion fruit"
       }
     },
@@ -542,6 +696,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 78,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cranberry"
       }
     },
@@ -549,6 +705,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 79,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "honeydew"
       }
     },
@@ -556,6 +714,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 80,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "potato"
       }
     },
@@ -563,6 +723,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 81,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "squash"
       }
     },
@@ -570,6 +732,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 82,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cucumber"
       }
     },
@@ -577,6 +741,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 83,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "asparagus"
       }
     },
@@ -584,6 +750,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 84,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "artichoke"
       }
     },
@@ -591,6 +759,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 85,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "radish"
       }
     },
@@ -598,6 +768,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 86,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "beet"
       }
     },
@@ -605,6 +777,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 87,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "kale"
       }
     },
@@ -612,6 +786,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 88,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "arugula"
       }
     },
@@ -619,6 +795,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 89,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chard"
       }
     },
@@ -626,6 +804,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 90,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "endive"
       }
     },
@@ -633,6 +813,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 91,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lettuce"
       }
     },
@@ -640,6 +822,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 92,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "watercress"
       }
     },
@@ -647,6 +831,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 93,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "peas"
       }
     },
@@ -654,6 +840,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 94,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "corn"
       }
     },
@@ -661,6 +849,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 95,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "okra"
       }
     },
@@ -668,6 +858,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 96,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cauliflower"
       }
     },
@@ -675,6 +867,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 97,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "egg"
       }
     },
@@ -682,6 +876,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 98,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "tofu"
       }
     },
@@ -689,6 +885,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 99,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "quail eggs"
       }
     },
@@ -696,6 +894,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 100,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "water chestnut"
       }
     },
@@ -703,6 +903,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 101,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "bamboo shoots"
       }
     },
@@ -710,6 +912,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 102,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sunflower seeds"
       }
     },
@@ -717,6 +921,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 103,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pumpkin seeds"
       }
     },
@@ -724,6 +930,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 104,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sesame seeds"
       }
     },
@@ -731,6 +939,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 105,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chia seeds"
       }
     },
@@ -738,6 +948,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 106,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "flax seeds"
       }
     },
@@ -745,6 +957,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 107,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "poppy seeds"
       }
     },
@@ -752,6 +966,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 108,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "walnuts"
       }
     },
@@ -759,6 +975,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 109,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "almonds"
       }
     },
@@ -766,6 +984,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 110,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cashews"
       }
     },
@@ -773,6 +993,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 111,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "peanuts"
       }
     },
@@ -780,6 +1002,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 112,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pecans"
       }
     },
@@ -787,6 +1011,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 113,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pistachios"
       }
     },
@@ -794,6 +1020,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 114,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "hazelnuts"
       }
     },
@@ -801,6 +1029,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 115,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "macadamia nuts"
       }
     },
@@ -808,6 +1038,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 116,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "coconut milk"
       }
     },
@@ -815,6 +1047,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 117,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cashew milk"
       }
     },
@@ -822,6 +1056,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 118,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "almond milk"
       }
     },
@@ -829,6 +1065,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 119,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "soy milk"
       }
     },
@@ -836,6 +1074,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 120,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "oat milk"
       }
     },
@@ -843,6 +1083,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 121,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "rice milk"
       }
     },
@@ -850,6 +1092,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 122,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "potato starch"
       }
     },
@@ -857,6 +1101,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 123,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cornstarch"
       }
     },
@@ -864,6 +1110,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 124,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "arrowroot starch"
       }
     },
@@ -871,6 +1119,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 125,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "tapioca starch"
       }
     },
@@ -878,6 +1128,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 126,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "wheat flour"
       }
     },
@@ -885,6 +1137,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 127,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "coconut flour"
       }
     },
@@ -892,6 +1146,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 128,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "almond flour"
       }
     },
@@ -899,6 +1155,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 129,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "oat flour"
       }
     },
@@ -906,6 +1164,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 130,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "whole wheat flour"
       }
     },
@@ -913,6 +1173,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 131,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "brown rice flour"
       }
     },
@@ -920,6 +1182,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 132,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "barley flour"
       }
     },
@@ -927,6 +1191,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 133,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "quinoa flour"
       }
     },
@@ -934,6 +1200,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 134,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "buckwheat flour"
       }
     },
@@ -941,6 +1209,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 135,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "teff flour"
       }
     },
@@ -948,6 +1218,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 136,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sorghum flour"
       }
     },
@@ -955,6 +1227,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 137,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "millet flour"
       }
     },
@@ -962,6 +1236,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 138,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "tapioca flour"
       }
     },
@@ -969,6 +1245,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 139,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "black bean flour"
       }
     },
@@ -976,6 +1254,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 140,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lentil flour"
       }
     },
@@ -983,6 +1263,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 141,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chickpea flour"
       }
     },
@@ -990,6 +1272,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 142,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cocoa powder"
       }
     },
@@ -997,6 +1281,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 143,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "vanilla extract"
       }
     },
@@ -1004,6 +1290,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 144,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cocoa butter"
       }
     },
@@ -1011,6 +1299,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 145,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "molasses"
       }
     },
@@ -1018,6 +1308,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 146,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "agave syrup"
       }
     },
@@ -1025,6 +1317,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 147,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "coconut sugar"
       }
     },
@@ -1032,6 +1326,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 148,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "brown sugar"
       }
     },
@@ -1039,6 +1335,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 149,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "powdered sugar"
       }
     },
@@ -1046,6 +1344,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 150,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "granulated sugar"
       }
     },
@@ -1053,6 +1353,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 151,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "palm sugar"
       }
     },
@@ -1060,6 +1362,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 152,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "coconut oil"
       }
     },
@@ -1067,6 +1371,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 153,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "avocado oil"
       }
     },
@@ -1074,6 +1380,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 154,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "grapeseed oil"
       }
     },
@@ -1081,6 +1389,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 155,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "canola oil"
       }
     },
@@ -1088,6 +1398,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 156,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sunflower oil"
       }
     },
@@ -1095,6 +1407,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 157,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sesame oil"
       }
     },
@@ -1102,6 +1416,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 158,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "peanut oil"
       }
     },
@@ -1109,6 +1425,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 159,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "flaxseed oil"
       }
     },
@@ -1116,6 +1434,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 160,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "balsamic vinegar"
       }
     },
@@ -1123,6 +1443,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 161,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "apple cider vinegar"
       }
     },
@@ -1130,6 +1452,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 162,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "red wine vinegar"
       }
     },
@@ -1137,6 +1461,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 163,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "white vinegar"
       }
     },
@@ -1144,6 +1470,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 164,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "rice vinegar"
       }
     },
@@ -1151,6 +1479,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 165,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "mirin"
       }
     },
@@ -1158,6 +1488,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 166,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "soybean paste"
       }
     },
@@ -1165,6 +1497,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 167,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "miso paste"
       }
     },
@@ -1172,6 +1506,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 168,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "hoisin sauce"
       }
     },
@@ -1179,6 +1515,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 169,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "oyster sauce"
       }
     },
@@ -1186,6 +1524,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 170,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "fish stock"
       }
     },
@@ -1193,6 +1533,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 171,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chicken stock"
       }
     },
@@ -1200,6 +1542,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 172,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "beef stock"
       }
     },
@@ -1207,6 +1551,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 173,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "vegetable stock"
       }
     },
@@ -1214,6 +1560,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 174,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dijon mustard"
       }
     },
@@ -1221,6 +1569,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 175,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "whole grain mustard"
       }
     },
@@ -1228,6 +1578,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 176,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "honey mustard"
       }
     },
@@ -1235,6 +1587,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 177,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "mayonnaise"
       }
     },
@@ -1242,6 +1596,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 178,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "ketchup"
       }
     },
@@ -1249,6 +1605,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 179,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "barbecue sauce"
       }
     },
@@ -1256,6 +1614,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 180,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "hot sauce"
       }
     },
@@ -1263,6 +1623,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 181,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "ranch dressing"
       }
     },
@@ -1270,6 +1632,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 182,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "italian dressing"
       }
     },
@@ -1277,6 +1641,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 183,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "caesar dressing"
       }
     },
@@ -1284,6 +1650,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 184,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "thousand island dressing"
       }
     },
@@ -1291,6 +1659,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 185,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "salsa"
       }
     },
@@ -1298,6 +1668,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 186,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "guacamole"
       }
     },
@@ -1305,6 +1677,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 187,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sumac"
       }
     },
@@ -1312,6 +1686,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 188,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "yogurt"
       }
     },
@@ -1319,6 +1695,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 189,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cream cheese"
       }
     },
@@ -1326,6 +1704,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 190,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cottage cheese"
       }
     },
@@ -1333,6 +1713,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 191,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "ricotta cheese"
       }
     },
@@ -1340,6 +1722,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 192,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "goat cheese"
       }
     },
@@ -1347,6 +1731,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 193,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "blue cheese"
       }
     },
@@ -1354,6 +1740,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 194,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "feta cheese"
       }
     },
@@ -1361,6 +1749,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 195,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "mozzarella cheese"
       }
     },
@@ -1368,6 +1758,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 196,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "American cheese"
       }
     },
@@ -1375,6 +1767,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 197,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "paneer"
       }
     },
@@ -1382,6 +1776,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 198,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "swiss cheese"
       }
     },
@@ -1389,6 +1785,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 199,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "provolone cheese"
       }
     },
@@ -1396,6 +1794,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 200,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "monterey jack cheese"
       }
     },
@@ -1403,6 +1803,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 201,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "gouda cheese"
       }
     },
@@ -1410,6 +1812,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 202,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "brie cheese"
       }
     },
@@ -1417,6 +1821,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 203,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "camembert cheese"
       }
     },
@@ -1424,6 +1830,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 204,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "bleu cheese"
       }
     },
@@ -1431,6 +1839,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 205,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pepper jack cheese"
       }
     },
@@ -1438,6 +1848,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 206,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "havarti cheese"
       }
     },
@@ -1445,6 +1857,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 207,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "colby jack cheese"
       }
     },
@@ -1452,6 +1866,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 208,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "queso fresco"
       }
     },
@@ -1459,6 +1875,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 209,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "queso blanco"
       }
     },
@@ -1466,6 +1884,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 210,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cheddar jack cheese"
       }
     },
@@ -1473,6 +1893,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 211,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cream of tartar"
       }
     },
@@ -1480,6 +1902,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 212,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "gelatin"
       }
     },
@@ -1487,6 +1911,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 213,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "baking soda"
       }
     },
@@ -1494,6 +1920,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 214,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "baking powder"
       }
     },
@@ -1501,6 +1929,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 215,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "yeast"
       }
     },
@@ -1508,6 +1938,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 216,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cornmeal"
       }
     },
@@ -1515,6 +1947,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 217,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "rolled oats"
       }
     },
@@ -1522,6 +1956,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 218,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "breadcrumbs"
       }
     },
@@ -1529,6 +1965,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 219,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "crackers"
       }
     },
@@ -1536,6 +1974,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 220,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "potato chips"
       }
     },
@@ -1543,6 +1983,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 221,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pretzels"
       }
     },
@@ -1550,6 +1992,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 222,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "popcorn"
       }
     },
@@ -1557,6 +2001,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 223,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "rice cakes"
       }
     },
@@ -1564,6 +2010,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 224,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "tortilla chips"
       }
     },
@@ -1571,6 +2019,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 225,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "croutons"
       }
     },
@@ -1578,6 +2028,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 226,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cereal"
       }
     },
@@ -1585,6 +2037,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 227,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "granola"
       }
     },
@@ -1592,6 +2046,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 228,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "panko breadcrumbs"
       }
     },
@@ -1599,6 +2055,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 229,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chocolate chips"
       }
     },
@@ -1606,6 +2064,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 230,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "coconut flakes"
       }
     },
@@ -1613,6 +2073,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 231,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried cranberries"
       }
     },
@@ -1620,6 +2082,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 232,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "raisins"
       }
     },
@@ -1627,6 +2091,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 233,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dates"
       }
     },
@@ -1634,6 +2100,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 234,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "figs"
       }
     },
@@ -1641,6 +2109,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 235,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "prunes"
       }
     },
@@ -1648,6 +2118,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 236,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried apricots"
       }
     },
@@ -1655,6 +2127,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 237,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried mango"
       }
     },
@@ -1662,6 +2136,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 238,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried pineapple"
       }
     },
@@ -1669,6 +2145,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 239,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried papaya"
       }
     },
@@ -1676,6 +2154,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 240,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried banana"
       }
     },
@@ -1683,6 +2163,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 241,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried blueberries"
       }
     },
@@ -1690,6 +2172,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 242,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried cherries"
       }
     },
@@ -1697,6 +2181,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 243,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried strawberries"
       }
     },
@@ -1704,6 +2190,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 244,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried raspberries"
       }
     },
@@ -1711,6 +2199,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 245,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried goji berries"
       }
     },
@@ -1718,6 +2208,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 246,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried currants"
       }
     },
@@ -1725,6 +2217,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 247,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried figs"
       }
     },
@@ -1732,6 +2226,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 248,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried dates"
       }
     },
@@ -1739,6 +2235,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 249,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried plums"
       }
     },
@@ -1746,6 +2244,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 250,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried persimmons"
       }
     },
@@ -1753,6 +2253,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 251,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried peaches"
       }
     },
@@ -1760,6 +2262,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 252,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried nectarines"
       }
     },
@@ -1767,6 +2271,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 253,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dried apples"
       }
     },
@@ -1774,6 +2280,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 254,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "black pepper"
       }
     },
@@ -1781,6 +2289,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 255,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "ribeye"
       }
     },
@@ -1788,6 +2298,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 256,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sirloin"
       }
     },
@@ -1795,6 +2307,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 257,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "filet mignon"
       }
     },
@@ -1802,6 +2316,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 258,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "porterhouse"
       }
     },
@@ -1809,6 +2325,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 259,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "t-bone"
       }
     },
@@ -1816,6 +2334,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 260,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "brisket"
       }
     },
@@ -1823,6 +2343,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 261,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pork chop"
       }
     },
@@ -1830,6 +2352,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 262,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lamb rack"
       }
     },
@@ -1837,6 +2361,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 263,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chicken thigh"
       }
     },
@@ -1844,6 +2370,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 264,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "salmon fillet"
       }
     },
@@ -1851,6 +2379,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 265,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lobster tail"
       }
     },
@@ -1858,6 +2388,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 266,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "jumbo shrimp"
       }
     },
@@ -1865,6 +2397,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 267,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "tofu steak"
       }
     },
@@ -1872,6 +2406,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 269,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "shrimp"
       }
     },
@@ -1879,6 +2415,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 270,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "salmon"
       }
     },
@@ -1886,6 +2424,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 271,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lobster"
       }
     },
@@ -1893,6 +2433,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 272,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "crab"
       }
     },
@@ -1900,6 +2442,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 273,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "oyster"
       }
     },
@@ -1907,6 +2451,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 274,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "mussels"
       }
     },
@@ -1914,6 +2460,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 275,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "clams"
       }
     },
@@ -1921,6 +2469,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 276,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "squid"
       }
     },
@@ -1928,6 +2478,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 277,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "tuna"
       }
     },
@@ -1935,6 +2487,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 278,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "butternut squash"
       }
     },
@@ -1942,6 +2496,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 279,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "ham"
       }
     },
@@ -1949,6 +2505,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 280,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "vidalia onion"
       }
     },
@@ -1956,6 +2514,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 281,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "ghee"
       }
     },
@@ -1963,6 +2523,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 282,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "water"
       }
     },
@@ -1970,6 +2532,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 283,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "milk"
       }
     },
@@ -1977,6 +2541,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 284,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "acorn squash"
       }
     },
@@ -1984,6 +2550,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 285,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "orange juice"
       }
     },
@@ -1991,6 +2559,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 286,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "mung bean sprouts"
       }
     },
@@ -1998,6 +2568,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 287,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "all-spice"
       }
     },
@@ -2005,6 +2577,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 288,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "all-purpose flour"
       }
     },
@@ -2012,6 +2586,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 289,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "kosher salt"
       }
     },
@@ -2019,6 +2595,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 290,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "unsalted butter"
       }
     },
@@ -2026,6 +2604,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 291,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "large egg"
       }
     },
@@ -2033,6 +2613,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 292,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "buttermilk"
       }
     },
@@ -2040,6 +2622,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 293,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lemon juice"
       }
     },
@@ -2047,6 +2631,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 294,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sea salt"
       }
     },
@@ -2054,6 +2640,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 295,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "shallot"
       }
     },
@@ -2061,6 +2649,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 296,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "egg yolk"
       }
     },
@@ -2068,6 +2658,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 297,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "egg white"
       }
     },
@@ -2075,6 +2667,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 298,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "red enchilada sauce"
       }
     },
@@ -2082,6 +2676,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 299,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chopped red onion"
       }
     },
@@ -2089,6 +2685,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 300,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chopped bell pepper"
       }
     },
@@ -2096,6 +2694,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 301,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "black beans"
       }
     },
@@ -2103,6 +2703,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 302,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "corn tortilla"
       }
     },
@@ -2110,6 +2712,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 303,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cilantro"
       }
     },
@@ -2117,6 +2721,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 304,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "garlic paste"
       }
     },
@@ -2124,6 +2730,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 305,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "chicken broth"
       }
     },
@@ -2131,6 +2739,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 306,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "diced tomatoes"
       }
     },
@@ -2138,6 +2748,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 307,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "dry sherry"
       }
     },
@@ -2145,6 +2757,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 308,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lasagna sheet"
       }
     },
@@ -2152,6 +2766,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 309,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "tomato sauce"
       }
     },
@@ -2159,6 +2775,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 310,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "ground beef"
       }
     },
@@ -2166,6 +2784,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 311,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "Italian sausage"
       }
     },
@@ -2173,6 +2793,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 312,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "tomato paste"
       }
     },
@@ -2180,6 +2802,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 313,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "Italian seasoning"
       }
     },
@@ -2187,6 +2811,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 314,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pizza dough"
       }
     },
@@ -2194,6 +2820,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 315,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "olives"
       }
     },
@@ -2201,6 +2829,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 316,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pizza sauce"
       }
     },
@@ -2208,6 +2838,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 317,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "sliced almonds"
       }
     },
@@ -2215,6 +2847,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 318,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "cherry tomatoes"
       }
     },
@@ -2222,6 +2856,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 319,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "Kalamata olives"
       }
     },
@@ -2229,6 +2865,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 320,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "romaine lettuce"
       }
     },
@@ -2236,6 +2874,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 321,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pickled red onions"
       }
     },
@@ -2243,6 +2883,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 322,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "pepitas"
       }
     },
@@ -2250,6 +2892,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 323,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "lemon vinaigrette"
       }
     },
@@ -2257,6 +2901,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 324,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "green onion"
       }
     },
@@ -2264,6 +2910,8 @@
       "model": "gastrognome_api.ingredient",
       "pk": 325,
       "fields": {
+        "public": true,
+        "created_by": 4,
         "name": "bacon"
       }
     }
