@@ -119,6 +119,12 @@ class CategoryView(ViewSet):
         try:
             current_user = GastroUser.objects.get(user=request.auth.user)
             categories = Category.objects.filter(Q(public=True) | Q(created_by=current_user))
+
+            category_type_query = request.query_params.get('type', None)
+            if category_type_query:
+                CategoryType.objects.get(pk=category_type_query)
+                categories = categories.filter(category_type__id=category_type_query)
+            
             serializer = CategorySerializer(categories, many=True)
             return Response(serializer.data)
         except AttributeError:
