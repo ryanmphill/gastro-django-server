@@ -3,6 +3,8 @@
       "model": "gastrognome_api.category",
       "pk": 1,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Vegetarian",
         "category_type": 1
       }
@@ -11,6 +13,8 @@
       "model": "gastrognome_api.category",
       "pk": 2,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Vegan",
         "category_type": 1
       }
@@ -19,6 +23,8 @@
       "model": "gastrognome_api.category",
       "pk": 3,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Gluten-free",
         "category_type": 1
       }
@@ -27,6 +33,8 @@
       "model": "gastrognome_api.category",
       "pk": 4,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Dairy-free",
         "category_type": 1
       }
@@ -35,6 +43,8 @@
       "model": "gastrognome_api.category",
       "pk": 5,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Nut-free",
         "category_type": 1
       }
@@ -43,6 +53,8 @@
       "model": "gastrognome_api.category",
       "pk": 6,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Kosher",
         "category_type": 1
       }
@@ -51,6 +63,8 @@
       "model": "gastrognome_api.category",
       "pk": 7,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Halal",
         "category_type": 1
       }
@@ -59,6 +73,8 @@
       "model": "gastrognome_api.category",
       "pk": 8,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Pescatarian",
         "category_type": 1
       }
@@ -67,6 +83,8 @@
       "model": "gastrognome_api.category",
       "pk": 9,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Lacto-vegetarian",
         "category_type": 1
       }
@@ -75,6 +93,8 @@
       "model": "gastrognome_api.category",
       "pk": 10,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Ovo-vegetarian",
         "category_type": 1
       }
@@ -83,6 +103,8 @@
       "model": "gastrognome_api.category",
       "pk": 11,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Paleo",
         "category_type": 1
       }
@@ -91,6 +113,8 @@
       "model": "gastrognome_api.category",
       "pk": 12,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Low-carb",
         "category_type": 1
       }
@@ -99,6 +123,8 @@
       "model": "gastrognome_api.category",
       "pk": 13,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Low-fat",
         "category_type": 1
       }
@@ -107,6 +133,8 @@
       "model": "gastrognome_api.category",
       "pk": 14,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Sugar-free",
         "category_type": 1
       }
@@ -115,6 +143,8 @@
       "model": "gastrognome_api.category",
       "pk": 15,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Raw",
         "category_type": 1
       }
@@ -123,6 +153,8 @@
       "model": "gastrognome_api.category",
       "pk": 16,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "FODMAP-free",
         "category_type": 1
       }
@@ -131,6 +163,8 @@
       "model": "gastrognome_api.category",
       "pk": 17,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Organic",
         "category_type": 1
       }
@@ -139,6 +173,8 @@
       "model": "gastrognome_api.category",
       "pk": 18,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Locally-sourced",
         "category_type": 1
       }
@@ -147,6 +183,8 @@
       "model": "gastrognome_api.category",
       "pk": 19,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Grain-free",
         "category_type": 1
       }
@@ -155,6 +193,8 @@
       "model": "gastrognome_api.category",
       "pk": 20,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Soy-free",
         "category_type": 1
       }
@@ -163,6 +203,8 @@
       "model": "gastrognome_api.category",
       "pk": 21,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Italian",
         "category_type": 2
       }
@@ -171,6 +213,8 @@
       "model": "gastrognome_api.category",
       "pk": 22,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Chinese",
         "category_type": 2
       }
@@ -179,6 +223,8 @@
       "model": "gastrognome_api.category",
       "pk": 23,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Mexican",
         "category_type": 2
       }
@@ -187,6 +233,8 @@
       "model": "gastrognome_api.category",
       "pk": 24,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Indian",
         "category_type": 2
       }
@@ -195,6 +243,8 @@
       "model": "gastrognome_api.category",
       "pk": 25,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Japanese",
         "category_type": 2
       }
@@ -203,6 +253,8 @@
       "model": "gastrognome_api.category",
       "pk": 26,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Thai",
         "category_type": 2
       }
@@ -211,6 +263,8 @@
       "model": "gastrognome_api.category",
       "pk": 27,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Greek",
         "category_type": 2
       }
@@ -219,6 +273,8 @@
       "model": "gastrognome_api.category",
       "pk": 28,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "French",
         "category_type": 2
       }
@@ -227,6 +283,8 @@
       "model": "gastrognome_api.category",
       "pk": 29,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Spanish",
         "category_type": 2
       }
@@ -235,6 +293,8 @@
       "model": "gastrognome_api.category",
       "pk": 30,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Mediterranean",
         "category_type": 2
       }
@@ -243,6 +303,8 @@
       "model": "gastrognome_api.category",
       "pk": 31,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "American",
         "category_type": 2
       }
@@ -251,6 +313,8 @@
       "model": "gastrognome_api.category",
       "pk": 32,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Korean",
         "category_type": 2
       }
@@ -259,6 +323,8 @@
       "model": "gastrognome_api.category",
       "pk": 33,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Vietnamese",
         "category_type": 2
       }
@@ -267,6 +333,8 @@
       "model": "gastrognome_api.category",
       "pk": 34,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Lebanese",
         "category_type": 2
       }
@@ -275,6 +343,8 @@
       "model": "gastrognome_api.category",
       "pk": 35,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Brazilian",
         "category_type": 2
       }
@@ -283,6 +353,8 @@
       "model": "gastrognome_api.category",
       "pk": 36,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Turkish",
         "category_type": 2
       }
@@ -291,6 +363,8 @@
       "model": "gastrognome_api.category",
       "pk": 37,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Russian",
         "category_type": 2
       }
@@ -299,6 +373,8 @@
       "model": "gastrognome_api.category",
       "pk": 38,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Moroccan",
         "category_type": 2
       }
@@ -307,6 +383,8 @@
       "model": "gastrognome_api.category",
       "pk": 39,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Peruvian",
         "category_type": 2
       }
@@ -315,6 +393,8 @@
       "model": "gastrognome_api.category",
       "pk": 40,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Caribbean",
         "category_type": 2
       }
@@ -323,6 +403,8 @@
       "model": "gastrognome_api.category",
       "pk": 41,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Ethiopian",
         "category_type": 2
       }
@@ -331,6 +413,8 @@
       "model": "gastrognome_api.category",
       "pk": 42,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Thai",
         "category_type": 2
       }
@@ -339,6 +423,8 @@
       "model": "gastrognome_api.category",
       "pk": 43,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Indonesian",
         "category_type": 2
       }
@@ -347,6 +433,8 @@
       "model": "gastrognome_api.category",
       "pk": 44,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Middle Eastern",
         "category_type": 2
       }
@@ -355,6 +443,8 @@
       "model": "gastrognome_api.category",
       "pk": 45,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "South African",
         "category_type": 2
       }
@@ -363,6 +453,8 @@
       "model": "gastrognome_api.category",
       "pk": 46,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Grilling",
         "category_type": 3
       }
@@ -371,6 +463,8 @@
       "model": "gastrognome_api.category",
       "pk": 47,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Baking",
         "category_type": 3
       }
@@ -379,6 +473,8 @@
       "model": "gastrognome_api.category",
       "pk": 48,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Roasting",
         "category_type": 3
       }
@@ -387,6 +483,8 @@
       "model": "gastrognome_api.category",
       "pk": 49,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Frying",
         "category_type": 3
       }
@@ -395,6 +493,8 @@
       "model": "gastrognome_api.category",
       "pk": 50,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Sautéing",
         "category_type": 3
       }
@@ -403,6 +503,8 @@
       "model": "gastrognome_api.category",
       "pk": 51,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Steaming",
         "category_type": 3
       }
@@ -411,6 +513,8 @@
       "model": "gastrognome_api.category",
       "pk": 52,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Boiling",
         "category_type": 3
       }
@@ -419,6 +523,8 @@
       "model": "gastrognome_api.category",
       "pk": 53,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Poaching",
         "category_type": 3
       }
@@ -427,6 +533,8 @@
       "model": "gastrognome_api.category",
       "pk": 54,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Simmering",
         "category_type": 3
       }
@@ -435,6 +543,8 @@
       "model": "gastrognome_api.category",
       "pk": 55,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Broiling",
         "category_type": 3
       }
@@ -443,6 +553,8 @@
       "model": "gastrognome_api.category",
       "pk": 56,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Smoking",
         "category_type": 3
       }
@@ -451,6 +563,8 @@
       "model": "gastrognome_api.category",
       "pk": 57,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Stir-frying",
         "category_type": 3
       }
@@ -459,6 +573,8 @@
       "model": "gastrognome_api.category",
       "pk": 58,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Braising",
         "category_type": 3
       }
@@ -467,6 +583,8 @@
       "model": "gastrognome_api.category",
       "pk": 59,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Griddling",
         "category_type": 3
       }
@@ -475,6 +593,8 @@
       "model": "gastrognome_api.category",
       "pk": 60,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Blanching",
         "category_type": 3
       }
@@ -483,6 +603,8 @@
       "model": "gastrognome_api.category",
       "pk": 61,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Deep-frying",
         "category_type": 3
       }
@@ -491,6 +613,8 @@
       "model": "gastrognome_api.category",
       "pk": 62,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Sous vide",
         "category_type": 3
       }
@@ -499,6 +623,8 @@
       "model": "gastrognome_api.category",
       "pk": 63,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Caramelizing",
         "category_type": 3
       }
@@ -507,6 +633,8 @@
       "model": "gastrognome_api.category",
       "pk": 64,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Grating",
         "category_type": 3
       }
@@ -515,6 +643,8 @@
       "model": "gastrognome_api.category",
       "pk": 65,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Blending",
         "category_type": 3
       }
@@ -523,6 +653,8 @@
       "model": "gastrognome_api.category",
       "pk": 66,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Stewing",
         "category_type": 3
       }
@@ -531,6 +663,8 @@
       "model": "gastrognome_api.category",
       "pk": 69,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Flambéing",
         "category_type": 3
       }
@@ -539,6 +673,8 @@
       "model": "gastrognome_api.category",
       "pk": 71,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Pressure cooking",
         "category_type": 3
       }
@@ -547,6 +683,8 @@
       "model": "gastrognome_api.category",
       "pk": 74,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Infusing",
         "category_type": 3
       }
@@ -555,6 +693,8 @@
       "model": "gastrognome_api.category",
       "pk": 75,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Marinating",
         "category_type": 3
       }
@@ -563,6 +703,8 @@
       "model": "gastrognome_api.category",
       "pk": 76,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Searing",
         "category_type": 3
       }
@@ -571,6 +713,8 @@
       "model": "gastrognome_api.category",
       "pk": 77,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Pasta",
         "category_type": 4
       }
@@ -579,6 +723,8 @@
       "model": "gastrognome_api.category",
       "pk": 78,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Seafood",
         "category_type": 4
       }
@@ -587,6 +733,8 @@
       "model": "gastrognome_api.category",
       "pk": 79,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Salad",
         "category_type": 4
       }
@@ -595,6 +743,8 @@
       "model": "gastrognome_api.category",
       "pk": 80,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Soup",
         "category_type": 4
       }
@@ -603,6 +753,8 @@
       "model": "gastrognome_api.category",
       "pk": 81,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Sandwich",
         "category_type": 4
       }
@@ -611,6 +763,8 @@
       "model": "gastrognome_api.category",
       "pk": 82,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Pizza",
         "category_type": 4
       }
@@ -619,6 +773,8 @@
       "model": "gastrognome_api.category",
       "pk": 83,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Burger",
         "category_type": 4
       }
@@ -627,6 +783,8 @@
       "model": "gastrognome_api.category",
       "pk": 84,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Stir-fry",
         "category_type": 4
       }
@@ -635,6 +793,8 @@
       "model": "gastrognome_api.category",
       "pk": 85,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Curry",
         "category_type": 4
       }
@@ -643,6 +803,8 @@
       "model": "gastrognome_api.category",
       "pk": 86,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Roast",
         "category_type": 4
       }
@@ -651,6 +813,8 @@
       "model": "gastrognome_api.category",
       "pk": 87,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Grilled",
         "category_type": 4
       }
@@ -659,6 +823,8 @@
       "model": "gastrognome_api.category",
       "pk": 88,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Taco",
         "category_type": 4
       }
@@ -667,6 +833,8 @@
       "model": "gastrognome_api.category",
       "pk": 89,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Sushi",
         "category_type": 4
       }
@@ -675,6 +843,8 @@
       "model": "gastrognome_api.category",
       "pk": 90,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Wrap",
         "category_type": 4
       }
@@ -683,6 +853,8 @@
       "model": "gastrognome_api.category",
       "pk": 91,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Noodle",
         "category_type": 4
       }
@@ -691,6 +863,8 @@
       "model": "gastrognome_api.category",
       "pk": 92,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Rice",
         "category_type": 4
       }
@@ -699,6 +873,8 @@
       "model": "gastrognome_api.category",
       "pk": 99,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Gratin",
         "category_type": 4
       }
@@ -707,6 +883,8 @@
       "model": "gastrognome_api.category",
       "pk": 100,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Stew",
         "category_type": 4
       }
@@ -715,6 +893,8 @@
       "model": "gastrognome_api.category",
       "pk": 101,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Frittata",
         "category_type": 4
       }
@@ -723,6 +903,8 @@
       "model": "gastrognome_api.category",
       "pk": 102,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Sauce",
         "category_type": 4
       }
@@ -731,6 +913,8 @@
       "model": "gastrognome_api.category",
       "pk": 104,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Goulash",
         "category_type": 4
       }
@@ -739,6 +923,8 @@
       "model": "gastrognome_api.category",
       "pk": 105,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Sashimi",
         "category_type": 4
       }
@@ -747,6 +933,8 @@
       "model": "gastrognome_api.category",
       "pk": 107,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Fajitas",
         "category_type": 4
       }
@@ -755,6 +943,8 @@
       "model": "gastrognome_api.category",
       "pk": 108,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Quiche",
         "category_type": 4
       }
@@ -763,6 +953,8 @@
       "model": "gastrognome_api.category",
       "pk": 109,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Pancakes",
         "category_type": 4
       }
@@ -771,6 +963,8 @@
       "model": "gastrognome_api.category",
       "pk": 110,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Sweet",
         "category_type": 5
       }
@@ -779,6 +973,8 @@
       "model": "gastrognome_api.category",
       "pk": 111,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Savory",
         "category_type": 5
       }
@@ -787,6 +983,8 @@
       "model": "gastrognome_api.category",
       "pk": 112,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Spicy",
         "category_type": 5
       }
@@ -795,6 +993,8 @@
       "model": "gastrognome_api.category",
       "pk": 113,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Sour",
         "category_type": 5
       }
@@ -803,6 +1003,8 @@
       "model": "gastrognome_api.category",
       "pk": 114,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Bitter",
         "category_type": 5
       }
@@ -811,6 +1013,8 @@
       "model": "gastrognome_api.category",
       "pk": 115,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Umami",
         "category_type": 5
       }
@@ -819,6 +1023,8 @@
       "model": "gastrognome_api.category",
       "pk": 116,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Tangy",
         "category_type": 5
       }
@@ -827,6 +1033,8 @@
       "model": "gastrognome_api.category",
       "pk": 117,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Creamy",
         "category_type": 5
       }
@@ -835,6 +1043,8 @@
       "model": "gastrognome_api.category",
       "pk": 118,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Smoky",
         "category_type": 5
       }
@@ -843,6 +1053,8 @@
       "model": "gastrognome_api.category",
       "pk": 119,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Herbaceous",
         "category_type": 5
       }
@@ -851,6 +1063,8 @@
       "model": "gastrognome_api.category",
       "pk": 120,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "European",
         "category_type": 2
       }
@@ -859,6 +1073,8 @@
       "model": "gastrognome_api.category",
       "pk": 121,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Light",
         "category_type": 6
       }
@@ -867,6 +1083,8 @@
       "model": "gastrognome_api.category",
       "pk": 122,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Comfort",
         "category_type": 6
       }
@@ -875,6 +1093,8 @@
       "model": "gastrognome_api.category",
       "pk": 123,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Hearty",
         "category_type": 6
       }
@@ -883,6 +1103,8 @@
       "model": "gastrognome_api.category",
       "pk": 124,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Rich",
         "category_type": 6
       }
@@ -891,6 +1113,8 @@
       "model": "gastrognome_api.category",
       "pk": 125,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Delicate",
         "category_type": 6
       }
@@ -899,6 +1123,8 @@
       "model": "gastrognome_api.category",
       "pk": 127,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Fresh",
         "category_type": 6
       }
@@ -907,6 +1133,8 @@
       "model": "gastrognome_api.category",
       "pk": 128,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Crispy",
         "category_type": 6
       }
@@ -915,6 +1143,8 @@
       "model": "gastrognome_api.category",
       "pk": 129,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Satisfying",
         "category_type": 6
       }
@@ -923,6 +1153,8 @@
       "model": "gastrognome_api.category",
       "pk": 130,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Elegant",
         "category_type": 6
       }
@@ -931,6 +1163,8 @@
       "model": "gastrognome_api.category",
       "pk": 131,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Salty",
         "category_type": 5
       }
@@ -939,6 +1173,8 @@
       "model": "gastrognome_api.category",
       "pk": 132,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Quick and easy",
         "category_type": 6
       }
@@ -947,6 +1183,8 @@
       "model": "gastrognome_api.category",
       "pk": 133,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Keto",
         "category_type": 1
       }
@@ -955,6 +1193,8 @@
       "model": "gastrognome_api.category",
       "pk": 134,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Whole30",
         "category_type": 1
       }
@@ -963,6 +1203,8 @@
       "model": "gastrognome_api.category",
       "pk": 135,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Decadent",
         "category_type": 6
       }
@@ -971,6 +1213,8 @@
       "model": "gastrognome_api.category",
       "pk": 136,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Flavorful",
         "category_type": 6
       }
@@ -979,6 +1223,8 @@
       "model": "gastrognome_api.category",
       "pk": 137,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Party Food",
         "category_type": 4
       }
@@ -987,6 +1233,8 @@
       "model": "gastrognome_api.category",
       "pk": 138,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Budgent-friendly",
         "category_type": 4
       }
@@ -995,6 +1243,8 @@
       "model": "gastrognome_api.category",
       "pk": 139,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Allergy-friendly",
         "category_type": 1
       }
@@ -1003,6 +1253,8 @@
       "model": "gastrognome_api.category",
       "pk": 140,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Carnivore",
         "category_type": 1
       }
@@ -1011,6 +1263,8 @@
       "model": "gastrognome_api.category",
       "pk": 141,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Southern",
         "category_type": 2
       }
@@ -1019,6 +1273,8 @@
       "model": "gastrognome_api.category",
       "pk": 142,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Soul food",
         "category_type": 4
       }
@@ -1027,6 +1283,8 @@
       "model": "gastrognome_api.category",
       "pk": 143,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Refreshing",
         "category_type": 6
       }
@@ -1035,6 +1293,8 @@
       "model": "gastrognome_api.category",
       "pk": 144,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Holiday",
         "category_type": 4
       }
@@ -1043,6 +1303,8 @@
       "model": "gastrognome_api.category",
       "pk": 145,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Thanksgiving",
         "category_type": 4
       }
@@ -1051,6 +1313,8 @@
       "model": "gastrognome_api.category",
       "pk": 146,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Christmas",
         "category_type": 4
       }
@@ -1059,6 +1323,8 @@
       "model": "gastrognome_api.category",
       "pk": 147,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Hanukkah",
         "category_type": 4
       }
@@ -1067,6 +1333,8 @@
       "model": "gastrognome_api.category",
       "pk": 148,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Summer",
         "category_type": 4
       }
@@ -1075,6 +1343,8 @@
       "model": "gastrognome_api.category",
       "pk": 149,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Spring",
         "category_type": 4
       }
@@ -1083,6 +1353,8 @@
       "model": "gastrognome_api.category",
       "pk": 150,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Autumn",
         "category_type": 4
       }
@@ -1091,6 +1363,8 @@
       "model": "gastrognome_api.category",
       "pk": 151,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Winter",
         "category_type": 4
       }
@@ -1099,6 +1373,8 @@
       "model": "gastrognome_api.category",
       "pk": 152,
       "fields": {
+        "created_by": 4,
+        "public": true,
         "name": "Hibachi",
         "category_type": 3
       }
